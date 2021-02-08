@@ -6,7 +6,7 @@ function Footer() {
 
   return (
     <footer>
-      <p>&copy; {year} Movie Corp.</p>
+      <p>&copy; Robyn Abe {year}</p>
     </footer>
   );
 }

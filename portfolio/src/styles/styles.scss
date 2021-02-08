@@ -1,15 +1,9 @@
-body {
-    background-color: #1a61d4;
-    color: white;
-}
+@charset "utf-8";
 
-a,
-a:visited {
-    color: white;
-}
-
-header {
-    a {
-        text-decoration: none;
-    }
-}
+// partial imports
+@use './partials/resets';
+@use './partials/header';
+@use './partials/nav';
+@use './partials/main';
+@use './partials/about';
+@use './partials/footer';
