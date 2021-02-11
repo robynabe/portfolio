@@ -1,4 +1,10 @@
 // MAIN CONTENT STYLES //
-.main {
+.main-projects {
   background-color: lightgrey;
+}
+.project:nth-child(odd) {
+  color: red;
+}
+.project:nth-child(even) {
+  color: purple;
 }
