@@ -5,10 +5,10 @@ function Nav() {
     <nav className="main-nav">
         <ul>
             <li>
-                <NavLink to={'/'}>Projects</NavLink>
+                <NavLink className="nav-link" to={'/'}>Projects</NavLink>
             </li>
             <li>
-                <NavLink to={'/about'}>About</NavLink>
+                <NavLink className="nav-link" to={'/about'}>About</NavLink>
             </li>
         </ul>
     </nav>

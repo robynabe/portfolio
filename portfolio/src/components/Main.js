@@ -3,6 +3,7 @@
 import Top from '../utilities/Top';
 import Image from '../images/code-placeholder-img.png'; // Change once iamges are confirmed
 import { projects } from '../data/projects';
+import { Link } from 'react-router-dom';
 
 const Main = () => {
 
@@ -43,6 +44,7 @@ const Main = () => {
                         <h2>{project.name}</h2>
                         <p>{project.tools}</p>
                         <p>{project.overview}</p>
+                        <Link to={project.page}>See Project</Link>
                     </div>
                 </section>
             ))}

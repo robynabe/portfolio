@@ -1,0 +1,9 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  &:hover {
+    filter: drop-shadow(2px 2px 1px black); // fix this transition
+    transition: ease-in-out 200ms;
+  }
+}

@@ -1,0 +1,17 @@
+// ABOUT PAGE STYLES //
+
+.about-main {
+  padding: 20px;
+  h1 {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+  }
+  .about-overview {
+    display: block;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    border: solid black 5px;
+  }
+}

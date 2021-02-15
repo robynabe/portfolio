@@ -1,0 +1,10 @@
+// HEADER STYLING //
+@media (min-width: 500px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.logo {
+  width: 200px;
+}

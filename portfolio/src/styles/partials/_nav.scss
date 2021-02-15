@@ -1,0 +1,27 @@
+.main-nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 30px;
+  background-color: grey;
+  ul {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-around;
+    list-style: none;
+  }
+}
+@media (min-width: 600px) {
+  .main-nav {
+    position: unset;
+    width: 100px;
+    ul {
+      display: block;
+    }
+  }
+}
+.nav-link {
+  display: block;
+  margin-left: 0;
+  text-decoration: none;
+}

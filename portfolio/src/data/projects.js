@@ -5,31 +5,36 @@ export const projects = [
         name: 'Movie App',
         tools: 'React | Sass | JavaScript',
         overview: 'The movie app overview',
-        filter: 'react'
+        filter: 'react',
+        page: 'MovieApp'
     },
     {
         name: 'Portfolio',
         tools: 'React | Sass | JavaScript',
         overview: 'The Portfolio site overview',
-        filter: 'react'
+        filter: 'react',
+        page: 'Portfolio'
     },
     {
         name: 'Business Brochure',
         tools: 'HTML | Sass | JavaScript ',
         overview: 'The Business brochure overview',
-        filter: 'other'
+        filter: 'other',
+        page: 'Brochure'
     },
     {
         name: 'Movie App Mock-up',
         tools: 'Photoshop | Illustrator',
         overview: 'The Movie mock-up overview',
-        filter: 'other'
+        filter: 'other',
+        page: 'MockUp'
     },
     {
         name: 'WooCommerce',
         tools: 'WordPress | Sass | JavaScript',
         overview: 'The Capstone project overview',
-        filter: 'other'
+        filter: 'other',
+        page: 'WooCommerce'
     }
 
 ]
