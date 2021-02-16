@@ -1,5 +1,5 @@
 // ABOUT PAGE //
-import Top from '../utilities/Top';
+import Top from './Top';
 
 function About() {
   return (
