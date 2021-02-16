@@ -1,8 +1,16 @@
 .scroll-to-top {
   position: fixed;
   z-index: 5;
-  bottom: 20px;
+  bottom: 35px;
   right: 20px;
+  svg {
+    fill: white;
+    stroke: white;
+    stroke-width: 2px;
+    @media (min-width: 650px) {
+      stroke: black;
+    }
+  }
   &:hover {
     filter: drop-shadow(2px 2px 1px black); // fix this transition
     transition: ease-in-out 200ms;

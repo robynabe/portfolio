@@ -3,8 +3,9 @@
 // containers
 .project {
   position: relative;
-  margin: 15px;
+  margin: 30px;
   padding: 20px;
+  animation: fadein 2.5s;
   @media (min-width: 650px) {
     display: flex;
   }
@@ -12,13 +13,22 @@
 @media (min-width: 650px) {
   .project-container {
     display: block;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
   }
   .project-info {
     position: relative;
     width: 100%;
+    margin-left: 20px;
     padding: 5px;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
@@ -29,21 +39,13 @@
   left: 0;
   width: 50%;
   height: 50%;
-  border-top: solid black 4px;
-  border-left: solid black 4px;
+  border-top: solid rgba(black, 0.1) 4px;
+  border-left: solid rgba(black, 0.1) 4px;
 }
 
 // elements
-.main-projects {
-  h1 {
-    margin-top: 0;
-    text-align: center;
-    text-transform: uppercase;
-    vertical-align: middle;
-  }
-  h2 {
-    margin-top: 10px;
-  }
+.main-projects h2 {
+  margin-top: 10px;
 }
 .see-project-link {
   color: black;
@@ -101,7 +103,14 @@
     }
   }
 }
+.img-container {
+  max-width: 450px;
+  @media (min-width: 650px) {
+    width: 60%;
+  }
+}
 .projects-img {
   width: 100%;
   height: auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }

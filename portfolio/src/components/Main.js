@@ -1,5 +1,5 @@
 // MAIN PAGE (Projects) //
-//import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Top from './Top';
 import { projects } from '../data/projects';
 import { Link } from 'react-router-dom';
@@ -28,7 +28,6 @@ const Main = () => {
 
     return (
         <main className="main-projects">
-            <h1>Web Developer</h1>
             {/* <nav id="filter" className="filters">
                 <ul >
                     <li onClick={() => setFilterKey('*')}>All Projects</li>
