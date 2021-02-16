@@ -1,12 +1,11 @@
 // FOOTER //
-function Footer() {
+import { makeYear } from '../utilities/date';
 
-    const d = new Date();
-    const year = d.getFullYear();
+function Footer() {
 
   return (
     <footer>
-      <p>Designed and coded by <a href="https://github.com/robynabe">Robyn Abe</a> {year} &copy;</p>
+      <p>Designed and coded by <a href="https://github.com/robynabe">Robyn Abe</a> {makeYear()} &copy;</p>
     </footer>
   );
 }

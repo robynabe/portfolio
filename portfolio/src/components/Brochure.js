@@ -1,6 +1,7 @@
 function Brochure() {
     return (
        <main className="brochure-main">
+           <h1>Business Brochure</h1>
            <div>
                <h2>Planning</h2>
                <div className="planning-tab">

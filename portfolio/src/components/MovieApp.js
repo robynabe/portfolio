@@ -1,23 +1,25 @@
 // SINGLE PROJECT PAGE - Movie App //
 
+
 function MovieApp() {
     return (
        <main className="movie-app-main">
+           <h1>React Movie App</h1>
            <div>
-               <h2>Planning</h2>
-               <div className="planning-tab">
-                   <p>Stuff about planning process</p>
+               <button className="accordion"><h2>Planning</h2></button>
+               <div className="info">
+                   <p>Stuff about planning process about</p>
                </div>
            </div>
            <div>
-               <h2>Development</h2>
-               <div className="dev-tab">
+               <button className="accordion" ><h2>Development</h2></button>
+               <div className="info">
                    <p>Stuff about Development process</p>
                </div>
            </div>
            <div>
-               <h2>Reflection</h2>
-               <div className="reflect-tab">
+               <button className="accordion" ><h2>Reflection</h2></button>
+               <div className="info">
                    <p>Stuff about project reflection and challenges overcome process</p>
                </div>
            </div>

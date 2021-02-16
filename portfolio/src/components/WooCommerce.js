@@ -1,6 +1,7 @@
 function WordPress() {
     return (
        <main className="wordpress-main">
+           <h1>WordPress- WooCommerce</h1>
            <div>
                <h2>Planning</h2>
                <div className="planning-tab">

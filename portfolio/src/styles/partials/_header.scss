@@ -1,6 +1,11 @@
 // HEADER STYLING //
-@media (min-width: 500px) {
-  header {
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media (min-width: 650px) {
+  .header {
     display: flex;
     justify-content: space-between;
   }

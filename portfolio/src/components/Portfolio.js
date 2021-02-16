@@ -1,6 +1,7 @@
 function Portfolio() {
     return (
        <main className="portfolio-main">
+           <h1>Portfolio</h1>
            <div>
                <h2>Planning</h2>
                <div className="planning-tab">

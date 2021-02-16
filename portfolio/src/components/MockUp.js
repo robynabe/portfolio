@@ -1,6 +1,7 @@
 function MockUp() {
     return (
        <main className="mockup-main">
+           Movie App Design Mock Up
            <div>
                <h2>Planning</h2>
                <div className="planning-tab">

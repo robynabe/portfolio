@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import Date from '../utilities/date';
 
 function Nav() {
   return (
@@ -11,6 +12,7 @@ function Nav() {
                 <NavLink className="nav-link" to={'/about'}>About</NavLink>
             </li>
         </ul>
+        <Date />
     </nav>
   );
 }
