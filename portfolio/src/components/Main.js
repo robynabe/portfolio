@@ -1,5 +1,5 @@
 // MAIN PAGE (Projects) //
-import React, { useState, useEffect } from "react";
+//import React, { useState, useEffect } from "react";
 import Top from './Top';
 import { projects } from '../data/projects';
 import { Link } from 'react-router-dom';

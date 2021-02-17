@@ -1,29 +1,39 @@
 // SINGLE PROJECT PAGE - Movie App //
 
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
+import { Link } from 'react-router-dom';
 
 function MovieApp() {
     return (
-       <main className="movie-app-main">
-           <h1>React Movie App</h1>
-           <div>
-               <button className="accordion"><h2>Planning</h2></button>
-               <div className="info">
-                   <p>Stuff about planning process about</p>
-               </div>
-           </div>
-           <div>
-               <button className="accordion" ><h2>Development</h2></button>
-               <div className="info">
-                   <p>Stuff about Development process</p>
-               </div>
-           </div>
-           <div>
-               <button className="accordion" ><h2>Reflection</h2></button>
-               <div className="info">
-                   <p>Stuff about project reflection and challenges overcome process</p>
-               </div>
-           </div>
-       </main>
-    )
+        <main>
+            <h1>Cineflix Project</h1>
+            <Tabs>
+                <TabList>
+                    <Tab><h3>Planning</h3></Tab>
+                    <Tab><h3>Development</h3></Tab>
+                    <Tab><h3>Reflection</h3></Tab>
+                </TabList>
+
+                <TabPanel>
+                    <h2>Any content 1</h2>
+                </TabPanel>
+
+                <TabPanel>
+                    <h2>Any content 2</h2>
+                </TabPanel>
+
+                <TabPanel>
+                    <h2>Any content 3</h2>
+                </TabPanel>
+            </Tabs>
+            <Link to="/MockUp">Mockup</Link>
+            <Link to="/portfolio">Portfolio</Link>
+
+        </main>
+    
+);
+    
+
 }
 export default MovieApp;

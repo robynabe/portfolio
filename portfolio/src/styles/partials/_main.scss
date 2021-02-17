@@ -3,9 +3,10 @@
 // containers
 .project {
   position: relative;
-  margin: 30px;
+  margin: 30px 30px 50px 30px;
   padding: 20px;
   animation: fadein 2.5s;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
   @media (min-width: 650px) {
     display: flex;
   }
@@ -112,5 +113,4 @@
 .projects-img {
   width: 100%;
   height: auto;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }

@@ -6,7 +6,7 @@ header {
     position: absolute;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.25em;
     font-size: 1.2rem;
     top: 80px;
     margin-left: -200px;
@@ -22,4 +22,7 @@ header {
 
 .logo {
   width: 150px;
+  &:hover {
+    filter: drop-shadow(0 0 0.2rem rgba(black, 0.2));
+  }
 }

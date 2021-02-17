@@ -6,7 +6,7 @@ function About() {
     <main className="about-main">
           <h1>Robyn Abe</h1>
           <section className='about-overview'>
-              <p><i>Welcome! I am Robyn Abe and here is my story.</i></p>
+              <p>Welcome! I am Robyn Abe and here is my story</p>
               <p>At the beginning of 2020 I stumbled across an online seminar hosted by SheCodes all while searching for my next 
                 career move. They were promoting women in code and I found this inspiring. I was then overly intrigued by this 
                 field that I had never given a thought to in the past. How could I be smart enough to pursue this? I took a chance
@@ -28,8 +28,9 @@ function About() {
             <div className="favourites">
               <h3>Favourites</h3>
               <ul>
-                <li>Sass</li>
-                <li>React</li>
+                <li><i className="fab fa-sass"></i></li>
+                <li><i className="fab fa-react"></i></li>
+                <li><i className="fab fa-css3"></i></li>
               </ul>
             </div>
 
@@ -37,9 +38,10 @@ function About() {
               <h3>Soft Skills</h3>
               <ul>
                 <li>Problem Solving</li>
+                <li>Collaboration</li>
                 <li>Attention to detail</li>
-                <li>Prioritizing</li>
-                <li>Team work</li>
+                <li>Prioritizaiton</li>
+                <li>Independent</li>
               </ul>
             </div>
 

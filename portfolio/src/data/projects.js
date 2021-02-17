@@ -7,7 +7,7 @@ import PlaceholderImg from '../images/code-placeholder-img.png';
 
 export const projects = [
     {
-        name: 'Movie App',
+        name: 'Cineflix',
         alt: 'Movie application home page',
         tools: 'React | Sass | JavaScript',
         overview: 'This collaborative project focused on the JavaScript framework React and its dynamic abilities. Through this project, I learned how to make API calls, interact with an external database to update my website with real time data',
@@ -25,8 +25,17 @@ export const projects = [
         image: `${PlaceholderImg}`
     },
     {
-        name: 'Business Brochure',
-        alt: 'Business brochure products page',
+        name: 'The Rolling Pin',
+        alt: 'Ecommerce online bakery home page',
+        tools: 'WordPress | SassJava | Script',
+        overview: 'This project was one of the largest completed so far. It was done collaboratively over only about a month and a half. It is a fully functioning ECommerce website that sells made up baked goods.',
+        filter: 'other',
+        page: 'WooCommerce',
+        image: `${PlaceholderImg}`
+    },
+    {
+        name: 'Holey Moley Doughnuts',
+        alt: 'Doughnut shop products page',
         tools: 'HTML | Sass | JavaScript ',
         overview: 'The business brochure was used to emphasis design and styling skills. The focus was to implement sass and work collaboratively with Github.',
         filter: 'other',
@@ -34,22 +43,13 @@ export const projects = [
         image: `${BrochureImg}`
     },
     {
-        name: 'Movie App Mock-up',
+        name: 'Movie App Mockup',
         alt: 'Movie mock up in Photoshop',
         tools: 'Photoshop | Illustrator',
         overview: 'This movie app high fidelity mock-up was made primarily in Adobe Photoshop, while using a few assets created with Adobe Illustrator. Although this was not used for the live site, it showcases Adobe skills.',
         filter: 'other',
         page: 'MockUp',
         image: `${MockupImg}`
-    },
-    {
-        name: 'WooCommerce',
-        alt: 'Ecommerce online bakery home page',
-        tools: 'WordPress | Sass | JavaScript',
-        overview: 'This project was one of the largest completed so far. It was done collaboratively over only about a month and a half. It is a fully functioning ECommerce website that sells made up baked goods.',
-        filter: 'other',
-        page: 'WooCommerce',
-        image: `${PlaceholderImg}`
     }
 
 ]
