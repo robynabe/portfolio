@@ -27,8 +27,10 @@ function Brochure() {
                     <h2>Any content 3</h2>
                 </TabPanel>
             </Tabs>
-            <Link to="/WooCommerce">The Rolling Pin</Link>
-            <Link to="/MockUp">Mockup</Link>
+            <div className="links-container">
+                <Link className="link-fwd" to="/WooCommerce">The Rolling Pin</Link>
+                <Link className="link-bck" to="/MockUp">Mockup</Link>
+            </div>
 
         </main>
     

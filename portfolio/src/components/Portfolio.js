@@ -27,8 +27,10 @@ function Portfolio() {
                     <h2>Any content 3</h2>
                 </TabPanel>
             </Tabs>
-            <Link to="/MovieApp">Cineflix</Link>
-            <Link to="/WooCommerce">The Rolling Pin</Link>
+            <div className="links-container">
+                <Link className="link-fwd" to="/MovieApp">Cineflix</Link>
+                <Link className="link-bck" to="/WooCommerce">The Rolling Pin</Link>
+            </div>
 
         </main>
     

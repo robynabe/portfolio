@@ -1,0 +1,24 @@
+.tabs-wrapper {
+  display: block;
+  margin: 0 auto;
+  max-width: 1200px;
+  h3 {
+    text-transform: uppercase;
+  }
+}
+.project-details {
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  .link-fwd,
+  .link-bck {
+    text-decoration: none;
+    color: black;
+  }
+}

@@ -27,8 +27,10 @@ function WooCommerce() {
                     <h2>Any content 3</h2>
                 </TabPanel>
             </Tabs>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/Brochure">Holey Moley Doughnuts</Link>
+            <div className="links-container">
+                <Link className="link-fwd" to="/portfolio">Portfolio</Link>
+                <Link className="link-bck" to="/Brochure">Holey Moley Doughnuts</Link>
+            </div>
 
         </main>
     

@@ -27,8 +27,10 @@ function MockUp() {
                     <h2>Any content 3</h2>
                 </TabPanel>
             </Tabs>
-            <Link to="/Brochure">Holey Moley Doughnuts</Link>
-            <Link to="/MovieApp">Cineflix</Link>
+            <div className="links-container">
+                <Link className="link-fwd" to="/Brochure">Holey Moley Doughnuts</Link>
+                <Link className="link-bck" to="/MovieApp">Cineflix</Link>
+            </div>
 
         </main>
     
