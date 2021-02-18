@@ -1,3 +1,18 @@
+.single-main {
+  padding: 20px;
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.25em;
+  }
+}
+.single-main-img {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
 .tabs-wrapper {
   display: block;
   margin: 0 auto;
@@ -20,5 +35,21 @@
   .link-bck {
     text-decoration: none;
     color: black;
+    &::after {
+      content: "";
+      display: block;
+      padding-bottom: 2px;
+      width: 0;
+      height: 2px;
+      background: black;
+      transition: width 0.3s;
+    }
+    &:hover::after {
+      width: 100%;
+    }
+    &:hover {
+      border-right: solid black 2px;
+      transition: all ease-in 0.3s;
+    }
   }
 }

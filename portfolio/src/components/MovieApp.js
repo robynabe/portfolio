@@ -3,16 +3,18 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
-import MainImg from '../images/movie-app-home.png';
-import SwMockup from '../images/sw-mockup-img.png';
-import OfMockup from '../images/of-mockup-img.png';
+import cineflixImg from '../images/movie-app-home.png';
+import swMockup from '../images/sw-mockup-img.png';
+import ofMockup from '../images/of-mockup-img.png';
 import Top from './Top';
+import favVid from '../videos/react-movie-app-fav-video.webm';
+import sortVid from '../videos/react-movie-app-sorting-vid.webm';
 
 function MovieApp() {
     return (
-        <main className="movie-app-main">
+        <main className="single-main">
             <h1>Cineflix Project</h1>
-            <img className="movie-app-img" src={MainImg} alt="React movie app home page"/>
+            <img className="single-main-img" src={cineflixImg} alt="React movie app home page"/>
             <div className="about-project">
                 <h3>What is this project all about?</h3>
                 <p>This project is a dynamic yet simple movie application built with React that 
@@ -31,8 +33,8 @@ function MovieApp() {
                         to use the clean, simple layout of one mock and combine it with the fun colours of another. 
                     </p>
                     <div className="movie-img-container">
-                        <img src={SwMockup} alt="" />
-                        <img src={OfMockup} alt="" />
+                        <img src={swMockup} alt="" />
+                        <img src={ofMockup} alt="" />
                     </div>
                     <p>Once our design was confirmed, we decided to divide the pages between us to get the static coding done more efficiently. 
                         Once all the pages had their static content, we worked as a team to make the API calls and implement the dynamic functionality and the favourites button feature.
@@ -68,13 +70,21 @@ function MovieApp() {
                             <p>The main feature of this project was the ability to “favourite” and “unfavourite movies and store them for later. 
                             They remain in local storage until a new browser is used or the storage is cleared.
                             </p>
-                            <p><b>Video of functioning site**</b></p>
+                            <video autoPlay loop muted playsInline className="favourites-vid">
+                                <source src={favVid}
+                                        type="video/webm"
+                                        alt="Favourites button function preview"/>
+                            </video>
                        </div>
                        <div className="feature-two">
                             <p>This feature required manipulation of the API url in order to target either the movies that were Popular, upcoming, 
                                 top rated or now playing, which allowed the user to browse more specific movies. 
                             </p>
-                            <p><b>Video of functioning site**</b></p>
+                            <video autoPlay loop muted playsInline className="sorting-vid">
+                                <source src={sortVid}
+                                        type="video/webm"
+                                        alt="Movie sorting function preview"/>
+                            </video>
                        </div>
                        
                    </div>

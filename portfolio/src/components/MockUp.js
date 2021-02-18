@@ -3,12 +3,22 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
+import mockupImg from '../images/movie-mockup-home.png';
 
 function MockUp() {
     return (
-        <main>
+        <main className="single-main">
             <h1>Movie App Mockup Project</h1>
-            <Tabs>
+            <img className="single-main-img" src={mockupImg} alt="Movie mockup home page"/>
+            <div className="about-project">
+                <h3>What is this project all about?</h3>
+                <p>This project was solely focused on design and the use of Adobe Photoshop and 
+                    Illustrator to create a high fidelity mockup for a movie application website. There was no
+                    coding here! The idea was to make a mockup using proper layering techniques and to make it as 
+                    precise as possible right down to the pixel. 
+                </p>
+            </div>
+            <Tabs className="tabs-wrapper">
                 <TabList>
                     <Tab><h3>Planning</h3></Tab>
                     <Tab><h3>Development</h3></Tab>
