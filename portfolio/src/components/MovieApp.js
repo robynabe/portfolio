@@ -3,19 +3,24 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
-import cineflixImg from '../images/movie-app-home.png';
 import swMockup from '../images/sw-mockup-img.png';
 import ofMockup from '../images/of-mockup-img.png';
 import Top from './Top';
 import favVid from '../videos/react-movie-app-fav-video.webm';
 import sortVid from '../videos/react-movie-app-sorting-vid.webm';
+import SimpleSlider from '../utilities/movieSlick';
 
 function MovieApp() {
+
     return (
         <main className="single-main">
             <h1>Cineflix Project</h1>
-            <img className="single-main-img" src={cineflixImg} alt="React movie app home page"/>
+            <SimpleSlider />
             <div className="about-project">
+                <div className="single-links">
+                    <a href="https://github.com/robynabe/portoflio" rel="noreferrer" target="_blank">Github Repo</a>
+                    <a href="#0" target="_blank">Live Project</a>
+                </div>
                 <h3>What is this project all about?</h3>
                 <p>This project is a dynamic yet simple movie application built with React that 
                     collects real time data through The Movie Database API. 

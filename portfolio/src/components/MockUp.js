@@ -4,12 +4,13 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
 import mockupImg from '../images/movie-mockup-home.png';
+import SimpleSlider from '../utilities/mockupSlick';
 
 function MockUp() {
     return (
         <main className="single-main">
             <h1>Movie App Mockup Project</h1>
-            <img className="single-main-img" src={mockupImg} alt="Movie mockup home page"/>
+            <SimpleSlider />
             <div className="about-project">
                 <h3>What is this project all about?</h3>
                 <p>This project was solely focused on design and the use of Adobe Photoshop and 

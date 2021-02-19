@@ -28,7 +28,7 @@ export const projects = [
         name: 'The Rolling Pin',
         alt: 'Ecommerce online bakery home page',
         tools: 'WordPress | SassJava | Script',
-        overview: 'This project was one of the largest completed so far. It was done collaboratively over only about a month and a half. It is a fully functioning ECommerce website that sells made up baked goods.',
+        overview: 'Coming Soon... Hold tight!',
         sort: 'other',
         page: 'WooCommerce',
         image: `${PlaceholderImg}`
