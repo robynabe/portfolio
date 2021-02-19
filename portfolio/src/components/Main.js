@@ -1,43 +1,37 @@
 // MAIN PAGE (Projects) //
-//import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Top from './Top';
 import { projects } from '../data/projects';
 import { Link } from 'react-router-dom';
 
 const Main = () => {
 
-    // const [isotope, setIsotope] = useState(null);
-    // const [filterKey, setFilterKey] = useState('*');
+    const [projectFilter, setProjectFilter] = useState(projects);
 
-    // useEffect(() => {
-    //     setIsotope(
-    //         new Isotope('.project-container', {
-    //             itemSelector: 'section',
-    //             layoutMode: 'fitRows'
-    //         })
-    //     )
-    // }, [])
+    const react = projects.filter(project => project.sort === 'react'); 
+    const other = projects.filter(project => project.sort === 'other');
 
-    // useEffect(() => {
-    //     if (isotope) {
-    //         filterKey === '*'
-    //         ? isotope.arrange({ filter: `*` })
-    //         : isotope.arrange({ filter: `.${filterKey}` });
-    //     }
-    // }, [isotope, filterKey]);
+    function showAll() {
+        setProjectFilter(projects)
+    }
+    function showReact() {
+        setProjectFilter(react);
+    }
+    function showOther() {
+        setProjectFilter(other);
+    }
 
     return (
         <main className="main-projects">
-            {/* <nav id="filter" className="filters">
-                <ul >
-                    <li onClick={() => setFilterKey('*')}>All Projects</li>
-                    <li onClick={() => setFilterKey('react')}>React Projects</li>
-                    <li onClick={() => setFilterKey('other')}>Other Projects</li>
-                </ul>
-            </nav> */}
+            <div className="filter-btns">
+                <button onClick={() => showAll()} active>All Projects</button>
+                <button onClick={() => showReact()}>React Projects</button>
+                <button onClick={() => showOther()}>Other Projects</button>
+            </div> 
             <div className="project-container">
-                {projects.map((project, index) => (
-                <section key={index} className={project.filter}>
+                {projectFilter.map((project, index) => (
+                <section key={index} className={project.sort}>
+                    <Link to={project.page} className="project-section-link">
                     <div className="project">
                         <div className="corner-border"></div>
                         <div className="img-container">
@@ -56,6 +50,7 @@ const Main = () => {
                             <p>{project.overview}</p>
                         </div>
                     </div>
+                    </Link>
                 </section>
             ))}
             </div>
