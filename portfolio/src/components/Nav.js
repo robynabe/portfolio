@@ -6,7 +6,7 @@ function Nav() {
     <nav className="main-nav">
         <ul>
             <li>
-                <NavLink className="nav-link" to={'/'}>
+                <NavLink className="nav-link left" to={'/'}>
                   <span>Projects</span>
                   <svg width="30px" height="20px" viewBox="0 0 13 10">
                       <path d="M1,5 L11,5"></path>
@@ -15,7 +15,7 @@ function Nav() {
                 </NavLink>
             </li>
             <li>
-                <NavLink className="nav-link" to={'/about'}>
+                <NavLink className="nav-link right" to={'/about'}>
                   <span>About</span>
                   <svg width="30px" height="20px" viewBox="0 0 13 10">
                       <path d="M1,5 L11,5"></path>

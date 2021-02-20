@@ -3,7 +3,6 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
-import mockupImg from '../images/movie-mockup-home.png';
 import SimpleSlider from '../utilities/mockupSlick';
 
 function MockUp() {
