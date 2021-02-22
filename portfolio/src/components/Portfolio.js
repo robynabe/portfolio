@@ -16,20 +16,32 @@ function Portfolio() {
                 </TabList>
 
                 <TabPanel>
-                    <h2>Any content 1</h2>
+                    <div className="details-container">Coming Soon!</div>
                 </TabPanel>
 
                 <TabPanel>
-                    <h2>Any content 2</h2>
+                    <div className="details-container">Coming Soon!</div>
                 </TabPanel>
 
                 <TabPanel>
-                    <h2>Any content 3</h2>
+                    <div className="details-container">Coming Soon!</div>
                 </TabPanel>
             </Tabs>
             <div className="links-container">
-                <Link className="link-fwd" to="/MovieApp">Cineflix</Link>
-                <Link className="link-bck" to="/WooCommerce">The Rolling Pin</Link>
+                <Link className="link-bck" to="/MovieApp">
+                    <svg width="30px" height="20px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                    <span>Cineflix</span>
+                </Link>
+                <Link className="link-fwd" to="/WooCommerce">
+                    <span>The Rolling Pin</span>
+                    <svg width="30px" height="20px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </Link>
             </div>
 
         </main>
