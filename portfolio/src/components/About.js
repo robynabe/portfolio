@@ -4,9 +4,9 @@ import Top from './Top';
 function About() {
   return (
     <main className="about-main">
-          <h1>Robyn Abe</h1>
+      <h1>Robyn Abe</h1>
           <section className='about-overview'>
-              <p>Welcome! I am Robyn Abe and here is my story</p>
+              <p>Hello! I am Robyn Abe and here is my story.</p>
               <p>At the beginning of 2020 I stumbled across an online seminar hosted by SheCodes all while searching for my next 
                 career move. They were promoting women in code and I found this inspiring. I was then overly intrigued by this 
                 field that I had never given a thought to in the past. How could I be smart enough to pursue this? I took a chance
@@ -26,7 +26,7 @@ function About() {
           <section className="about-specifics">
 
             <div className="favourites">
-              <h3>Favourites</h3>
+              <h2>Favourites</h2>
               <ul>
                 <li><i className="fab fa-sass"></i></li>
                 <li><i className="fab fa-react"></i></li>
@@ -35,7 +35,7 @@ function About() {
             </div>
 
             <div className="soft-skills">
-              <h3>Soft Skills</h3>
+              <h2>Soft Skills</h2>
               <ul>
                 <li>Problem Solving</li>
                 <li>Collaboration</li>

@@ -30,7 +30,7 @@ export const projects = [
         tools: 'WordPress | SassJava | Script',
         overview: 'Coming Soon... Hold tight!',
         sort: 'other',
-        page: 'WooCommerce',
+        page: '/',
         image: `${PlaceholderImg}`
     },
     {
