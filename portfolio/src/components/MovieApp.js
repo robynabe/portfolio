@@ -39,8 +39,8 @@ function MovieApp() {
                         to use the clean, simple layout of one mock and combine it with the fun colours of another. 
                     </p>
                     <div className="movie-img-container">
-                        <img src={swMockup} alt="" />
-                        <img src={ofMockup} alt="" />
+                        <img src={swMockup} alt="Movie application mockup in photoshop" />
+                        <img src={ofMockup} alt="Movie application mockup in photoshop" />
                     </div>
                     <p>Once our design was confirmed, we decided to divide the pages between us to get the static coding done more efficiently. 
                         Once all the pages had their static content, we worked as a team to make the API calls and implement the dynamic functionality and the favourites button feature.

@@ -16,7 +16,7 @@ function Nav() {
             </li>
             <li>
                 <NavLink className="nav-link right" to={'/about'}>
-                  <span>About</span>
+                  <span>About Me</span>
                   <svg width="30px" height="20px" viewBox="0 0 13 10">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8 1 12 5 8 9"></polyline>
