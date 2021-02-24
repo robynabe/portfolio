@@ -5,6 +5,10 @@
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.25em;
+    font-size: 2rem;
+    @media (min-width: 800px) {
+      font-size: 3.5rem;
+    }
   }
 }
 .single-main-img {
@@ -16,20 +20,33 @@
 }
 .about-project {
   display: block;
-  margin: 0 auto 40px auto;
+  margin: 50px auto 50px auto;
   width: 100%;
   max-width: 1200px;
-  h3 {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  h2 {
     margin-top: 20px;
   }
   p {
     margin: 30px 0 60px 0;
   }
+  ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    li {
+      font-size: 40px;
+    }
+  }
 }
 .single-links {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0 30px;
+  margin: 20px auto 30px auto;
+  max-width: 1200px;
   a {
     padding: 10px 10px 7px;
     text-decoration: none;
@@ -163,4 +180,27 @@
   display: flex;
   justify-content: space-around;
   padding: 20px;
+}
+
+// Planning Tab
+
+.steps {
+  display: flex;
+  margin-top: 30px;
+  h3 {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    margin: 0 20px 20px 20px;
+    background: rgba(black, 0.1);
+    border-radius: 30px;
+    font-family: relation-two, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 2rem;
+  }
+  p {
+    margin: 10px;
+  }
 }
