@@ -177,30 +177,36 @@
 .project-details {
   display: block;
   margin: 0 auto;
-  display: flex;
   justify-content: space-around;
   padding: 20px;
+  @media (min-width: 1000px) {
+    display: flex;
+  }
 }
 
-// Planning Tab
-
-.steps {
-  display: flex;
-  margin-top: 30px;
-  h3 {
-    width: 40px;
-    min-width: 40px;
-    height: 40px;
-    margin: 0 20px 20px 20px;
-    background: rgba(black, 0.1);
-    border-radius: 30px;
-    font-family: relation-two, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    font-size: 2rem;
+// Toolkit tab
+.tools-used {
+  margin-bottom: 50px;
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
   }
-  p {
-    margin: 10px;
+  li {
+    text-align: center;
+    margin: 5px;
+    padding: 5px 15px;
+    background: rgba(black, 0.1);
+    max-width: 100px;
+    border-radius: 28px;
+  }
+}
+
+.specs {
+  ul {
+    list-style: none;
+    padding: 0;
+    line-height: 40px;
   }
 }

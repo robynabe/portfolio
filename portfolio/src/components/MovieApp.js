@@ -3,8 +3,6 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
-import swMockup from '../images/sw-mockup-img.png';
-import ofMockup from '../images/of-mockup-img.png';
 import Top from './Top';
 import favVid from '../videos/react-movie-app-fav-video.webm';
 import sortVid from '../videos/react-movie-app-sorting-vid.webm';
@@ -23,41 +21,58 @@ function MovieApp() {
                 <div className="about-project">
                 <h2>What's this all about?</h2>
                 <p>This project is a dynamic yet simple movie application built with React that 
-                    collects real time data through The Movie Database API. 
+                    collects real time data through The Movie Database API. It started as a high fidelity mockup and photoshop,
+                    where two separate designs were merged into one. It was then transformed into a fully functioning website.
                 </p>
                 <ul>
-                    <li><i class="fab fa-react"></i></li>
-                    <li><i class="fab fa-github"></i></li>
-                    <li><i class="fab fa-js-square"></i></li>
-                    <li><i class="fab fa-sass"></i></li>
+                    <li><i className="fab fa-react"></i></li>
+                    <li><i className="fab fa-github"></i></li>
+                    <li><i className="fab fa-js-square"></i></li>
+                    <li><i className="fab fa-sass"></i></li>
                 </ul>
             </div>
             <Tabs className="tabs-wrapper">
                 <TabList>
-                    <Tab><h3>Planning</h3></Tab>
-                    <Tab><h3>Development</h3></Tab>
+                    <Tab><h3>Features</h3></Tab>
+                    <Tab><h3>Toolkit</h3></Tab>
                     <Tab><h3>Reflection</h3></Tab>
                 </TabList>
 
                 <TabPanel>
                     <div className="details-container">
-                        <div className="steps">
-                            <h3>1.</h3>
-                        <p>We started this project by sourcing a design through a few previously made high fidelity mockups done in photoshop. We decided 
-                        to use the clean, simple layout of one mock and combine it with the fun colours of another. 
-                        </p>
-                    </div>
-                    <div className="movie-img-container">
-                        <img src={swMockup} alt="Movie application mockup in photoshop" />
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
-                        <img src={ofMockup} alt="Movie application mockup in photoshop" />
-                    </div>
-                    <div className="steps">
-                        <h3>2.</h3>
-                        <p>Once our design was confirmed, we decided to divide the pages between us to get the static coding done more efficiently. 
-                            Once all the pages had their static content, we worked as a team to make the API calls and implement the dynamic functionality and the favourites button feature.
-                        </p>
-                    </div>
+                        <div className="feature">
+                            <p>This Project was built around two main features, both which required quite a bit of JavaScript,
+                                external data use and teamwork. </p>
+                                <h3><span></span><b>1.</b> The Favourites Feature</h3>
+
+                                <div className="feature-details">
+                                    <video autoPlay loop muted playsInline className="favourites-vid">
+                                    <source src={favVid}
+                                            type="video/webm"
+                                            alt="Favourites button function preview"/>
+                                    </video>
+
+                                    <p>This feature was created after successful API connection in order to allow users to select and store movies for later for a more
+                                        interactive atmosphere. We are provided the ability to favourite movies from multiple categories and pages, as well as 
+                                        unfavourite movies they no longer wanted. These selections used local stoarge for memory.
+                                    </p>
+                                </div>
+                        </div>
+                        <div className="feature">
+                            <h3><span></span><b>2.</b> The Sorting Feature</h3>
+
+                            <div className="feature-details">
+                                 <video autoPlay loop muted playsInline className="sorting-vid">
+                                <source src={sortVid}
+                                        type="video/webm"
+                                        alt="Movie sorting function preview"/>
+                                </video>
+
+                                <p>This feature required manipulation of the API url in order to target different data from the database. It pulled movies from four
+                                    different categories: Popular, Now Playing, Top Rated and Coming Soon.
+                                </p>
+                            </div>
+                        </div>                
                     </div>
                 </TabPanel>
 
@@ -65,7 +80,7 @@ function MovieApp() {
                     <div className="details-container">
                         <div className="project-details">
                             <div className="tools-used">
-                                <h4>Tools Used</h4>
+                                <h3>Tools Used</h3>
                                 <ul>
                                     <li>React</li>
                                     <li>JavaScript</li>
@@ -77,44 +92,14 @@ function MovieApp() {
                                 </ul>
                             </div>
                             <div className="specs">
-                                <h4>Project specs</h4>
+                                <h3>Project specs</h3>
                                 <ul>
-                                    <li>Collaborative project: team of three</li>
-                                    <li>Project duration: 5 weeks</li>
-                                    <li>Responsiveness: mobile, tablet, desktop</li>
-                                    <li>Other: The Movie Database for data</li>
+                                    <li><b>Project Type: </b> Collaborative, team of three</li>
+                                    <li><b>Project Duration: </b> 5 weeks</li>
+                                    <li><b>Responsiveness: </b> mobile, tablet, desktop</li>
+                                    <li><b>Other Specs: </b> The Movie Database API</li>
                                 </ul>
                             </div>
-                        </div>
-                        <div className="features">
-                            <div className="feature-one">
-                                <div className="steps">
-                                    <h3>3.</h3>
-                                    <p>Once our static content was in place and our API connection was successful, we were about start
-                                    implementing special features and content. The main feature of this project was the “favourite” and 
-                                    “unfavourite functionality which made this more app-like as users were able to select movies and store 
-                                    them for later. The movies remain in local storage until a new browser is used or the storage is cleared.
-                                    </p>
-                                </div>
-                                <video autoPlay loop muted playsInline className="favourites-vid">
-                                    <source src={favVid}
-                                            type="video/webm"
-                                            alt="Favourites button function preview"/>
-                                </video>
-                            </div>
-                            <div className="feature-two">
-                                <div className="steps">
-                                    <h3>4.</h3>
-                                    <p>Another featured we included required manipulation of the API url in order to target either the movies that were Popular, upcoming, 
-                                        top rated or now playing, which allowed the user to browse more specific movies. 
-                                    </p>
-                                </div>
-                                <video autoPlay loop muted playsInline className="sorting-vid">
-                                    <source src={sortVid}
-                                            type="video/webm"
-                                            alt="Movie sorting function preview"/>
-                                </video>
-                            </div> 
                         </div>
                     </div>
                 </TabPanel>
@@ -130,7 +115,7 @@ function MovieApp() {
                         <p>There is always room for improvement and for this project in particular we could have created more external functions/components 
                         so that they could be used in a global manner throughout the project. This would overall the organisation as well.
                         </p>
-                        <h4>Skills Acquired</h4>
+                        <h3>Skills Acquired</h3>
                         <ul>
                             <li>API calls</li>
                             <li>React syntax</li>
