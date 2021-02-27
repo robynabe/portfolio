@@ -2,6 +2,7 @@
 
 header {
   position: relative;
+  background-color: black;
   h1 {
     position: absolute;
     text-align: center;
@@ -11,6 +12,7 @@ header {
     top: 80px;
     margin-left: -200px;
     transition: 1s;
+    color: white;
   }
   @media (min-width: 650px) {
     .header {
@@ -23,6 +25,7 @@ header {
 .logo {
   width: 120px;
   margin: 10px;
+  filter: invert(100%);
   &:hover {
     filter: drop-shadow(0 0 0.2rem rgba(black, 0.2));
   }

@@ -5,6 +5,7 @@
   bottom: 0;
   padding: 20px 0 30px 0;
   background-color: black;
+
   @media (min-width: 650px) {
     position: unset;
     width: 200px;
@@ -32,16 +33,16 @@
       right: -5px;
       display: block;
       border-radius: 150px;
-      background: rgba(black, 0.1);
-      width: 100px;
-      height: 100px;
+      background: white;
+      width: 150px;
+      height: 150px;
       transition: all 0.9s ease;
     }
     &:hover {
       &:before {
         top: -50px;
         right: -30px;
-        background: rgba(black, 0.1);
+        background: white;
         width: 250px;
         height: 250px;
       }
@@ -54,7 +55,6 @@
     display: block;
     margin-left: 0;
     text-decoration: none;
-    color: white;
     font-size: 18px;
     line-height: 20px;
     font-weight: 900;
@@ -97,7 +97,6 @@
       &:hover {
         border: none;
         background: transparent;
-
         svg {
           transform: translateX(0);
         }

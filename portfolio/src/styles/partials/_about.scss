@@ -2,23 +2,26 @@
 
 .about-main {
   position: relative;
-  margin: 40px 20px;
+  display: block;
+  margin: 60px 12px;
   padding: 20px;
+  max-width: 1000px;
   animation: fadein 2.5s;
-  border: solid black 5px;
+  border: solid rgba(black, 0.1) 5px;
   h1 {
     text-align: center;
     letter-spacing: 0.25em;
     position: absolute;
     top: -28px;
-    left: 64px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
     background-color: white;
-    padding: 0 30px;
-    font-size: 2.3rem;
+    font-size: 2.6rem;
     text-transform: uppercase;
   }
   @media (min-width: 1000px) {
-    margin: 40px 60px;
+    margin: 60px auto;
   }
 }
 @keyframes fadein {
@@ -33,42 +36,38 @@
 .about-overview {
   position: relative;
   display: block;
-  max-width: 700px;
   margin: 40px auto;
   padding: 40px 20px;
-  border-bottom: solid rgba(black, 0.1) 5px;
-  border-right: solid rgba(black, 0.1) 5px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
   p {
     line-height: 25px;
   }
   @media (min-width: 1000px) {
-    max-width: 1200px;
+    max-width: 700px;
     padding: 30px;
   }
 }
 // section two of about container
 .about-specifics {
-  display: flex;
-  justify-content: space-around;
   margin: 20px auto 30px auto;
-  max-width: 1200px;
+  max-width: 1000px;
   padding: 30px 10px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
   line-height: 40px;
+  h2 {
+    text-align: center;
+    margin: 30px;
+  }
   ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
   }
   li {
     line-height: 24px;
   }
   @media (min-width: 1000px) {
-    ul {
-      display: flex;
-    }
-    li {
-      margin: 0 20px 0 0;
-    }
+    display: flex;
+    justify-content: space-around;
   }
 }
 .favourites ul {
@@ -77,4 +76,7 @@
     font-size: 30px;
     line-height: 40px;
   }
+}
+.education span {
+  font-size: 22px;
 }

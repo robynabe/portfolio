@@ -25,11 +25,20 @@ function About() {
 
           <section className="about-specifics">
 
+            <div className="education">
+              <h2>Education</h2>
+              <ul>
+                <li>Technical Web Design <span>|</span> BCIT</li>
+                <li>React Workshop <span>|</span> SheCodes</li>
+                <li>Veterinary Technologist <span>|</span> Douglas College</li>
+              </ul>
+            </div>
+
             <div className="favourites">
               <h2>Favourites</h2>
               <ul>
-                <li><i className="fab fa-sass"></i></li>
                 <li><i className="fab fa-react"></i></li>
+                <li><i className="fab fa-sass"></i></li>
                 <li><i className="fab fa-css3"></i></li>
               </ul>
             </div>
