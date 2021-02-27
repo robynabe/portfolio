@@ -21,40 +21,13 @@
     display: block;
     padding: 0 10px;
     margin-right: 20px;
-    border-bottom: solid black 2px;
-    // Hover effect by Andreas Storm
-    position: relative;
-    transition: all 0.2s ease;
-    &:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: -20px;
-      right: -5px;
-      display: block;
-      border-radius: 150px;
-      background: white;
-      width: 150px;
-      height: 150px;
-      transition: all 0.9s ease;
-    }
-    &:hover {
-      &:before {
-        top: -50px;
-        right: -30px;
-        background: white;
-        width: 250px;
-        height: 250px;
-      }
-      &:active {
-        transform: scale(1);
-      }
-    }
+    border-bottom: solid white 2px;
   }
   .nav-link {
     display: block;
-    margin-left: 0;
+    color: white;
     text-decoration: none;
+    margin-left: 0;
     font-size: 18px;
     line-height: 20px;
     font-weight: 900;
@@ -73,7 +46,7 @@
     @media (min-width: 650px) {
       margin: 20px 0;
       text-align: right;
-      color: black;
+      color: white;
       border: none;
       padding: 2px;
       vertical-align: middle;
@@ -86,7 +59,7 @@
         fill: none;
         stroke-linecap: round;
         stroke-linejoin: round;
-        stroke: black;
+        stroke: white;
         stroke-width: 1.5;
         transform: translateX(-8px);
         transition: all 0.5s ease;
@@ -97,6 +70,8 @@
       &:hover {
         border: none;
         background: transparent;
+        color: white;
+
         svg {
           transform: translateX(0);
         }
