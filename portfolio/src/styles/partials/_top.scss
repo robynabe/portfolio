@@ -1,53 +1,26 @@
 .scroll-to-top {
   position: fixed;
   z-index: 5;
-  bottom: 90px;
-  right: 53%;
-  svg {
-    fill: white;
-    stroke: white;
-    stroke-width: 2px;
-    @media (min-width: 650px) {
-      stroke: black;
-      fill: black;
-    }
+  bottom: 88px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  padding: 20px 30px 40px 30px;
+  border-radius: 50%;
+  i {
+    color: white;
+    font-size: 20px;
   }
-}
-.icon-container {
-  position: relative;
   &:hover {
-    display: block;
-    .one {
-      display: block;
-      position: absolute;
-      bottom: -12px;
-      left: 3px;
-      animation: fadein 1.2s;
-      stroke-width: 1px;
-    }
-    .two {
-      display: block;
-      position: absolute;
-      bottom: 1px;
-      left: 3px;
-      animation: fadein 2s;
-      fill: rgba(black, 0.1);
-      stroke-width: 1px;
+    bottom: 92px;
+    transition: all ease-in-out 300ms;
+  }
+  @media (min-width: 650px) {
+    position: absolute;
+    bottom: 52px;
+    &:hover {
+      bottom: 56px;
+      transition: all ease-in-out 300ms;
     }
   }
-}
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.triangle {
-  position: absolute;
-  left: 1px;
-}
-.chevron {
-  display: none;
 }

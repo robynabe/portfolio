@@ -1,5 +1,5 @@
 // ABOUT PAGE //
-import Top from './Top';
+
 
 function About() {
   return (
@@ -55,7 +55,6 @@ function About() {
             </div>
 
           </section>
-          <Top />
     </main>
   );
 }

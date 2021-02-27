@@ -3,7 +3,6 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
-import Top from './Top';
 import favVid from '../videos/react-movie-app-fav-video.webm';
 import sortVid from '../videos/react-movie-app-sorting-vid.webm';
 import SimpleSlider from '../utilities/movieSlick';
@@ -140,7 +139,6 @@ function MovieApp() {
                     </svg>
                 </Link>
             </div>
-            <Top/>
         </main>
     
 );
