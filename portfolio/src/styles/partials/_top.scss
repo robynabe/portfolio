@@ -1,7 +1,7 @@
 .scroll-to-top {
   position: fixed;
   z-index: 5;
-  bottom: 88px;
+  bottom: 75px;
   left: 50%;
   transform: translateX(-50%);
   background-color: black;
@@ -12,14 +12,14 @@
     font-size: 20px;
   }
   &:hover {
-    bottom: 92px;
+    bottom: 80px;
     transition: all ease-in-out 300ms;
   }
   @media (min-width: 650px) {
     position: absolute;
-    bottom: 52px;
+    bottom: 55px;
     &:hover {
-      bottom: 56px;
+      bottom: 60px;
       transition: all ease-in-out 300ms;
     }
   }

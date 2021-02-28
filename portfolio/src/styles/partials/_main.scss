@@ -1,6 +1,13 @@
 // MAIN CONTENT STYLES //
 
 // containers
+.main-projects h1 {
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  text-align: center;
+  font-size: 2.5rem;
+}
 .project {
   position: relative;
   margin: 30px 30px 50px 30px;

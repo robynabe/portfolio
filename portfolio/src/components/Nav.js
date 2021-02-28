@@ -24,7 +24,7 @@ function Nav() {
                 </NavLink>
             </li>
         </ul>
-        <Date />
+        <h4><Date /></h4>
     </nav>
   );
 }

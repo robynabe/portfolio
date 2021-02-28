@@ -22,6 +22,7 @@ const Main = () => {
 
     return (
         <main className="main-projects">
+            <h1>Projects</h1>
             <div className="filter-btns">
                 <button onClick={() => showAll()} active>All Projects</button>
                 <button onClick={() => showReact()}>React Projects</button>
