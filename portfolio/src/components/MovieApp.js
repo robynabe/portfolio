@@ -13,11 +13,13 @@ function MovieApp() {
         <main className="single-main">
             <h1>Cineflix Movie App</h1>
             <SimpleSlider />
-                <div className="single-links">
-                    <a className="link-left" href="https://github.com/robynabe/react-movie-app" rel="noreferrer" target="_blank">Github Repo</a>
-                    <a className="link-right" href="#0" target="_blank">Live Project</a>
-                </div>
-                <div className="about-project">
+
+            <div className="single-links">
+                <a className="link-left" href="https://github.com/robynabe/react-movie-app" rel="noreferrer" target="_blank">Github Repo</a>
+                <a className="link-right" href="#0" target="_blank">Live Project</a>
+            </div>
+
+            <div className="about-project">
                 <h2>What's this all about?</h2>
                 <p>This project is a dynamic yet simple movie application built with React that 
                     collects real time data through The Movie Database API. It started as a high fidelity mockup and photoshop,
@@ -30,6 +32,7 @@ function MovieApp() {
                     <li><i className="fab fa-sass"></i></li>
                 </ul>
             </div>
+
             <Tabs className="tabs-wrapper">
                 <TabList>
                     <Tab><h3>Features</h3></Tab>
