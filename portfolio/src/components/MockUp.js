@@ -132,7 +132,7 @@ function MockUp() {
                         <path d="M1,5 L11,5"></path>
                         <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
-                    <span>Business Brochure</span>
+                    <span>Brochure</span>
                 </Link>
                 <Link className="link-fwd" to="/MovieApp">
                     <span>Cineflix</span>

@@ -134,7 +134,7 @@ function Brochure() {
                         <path d="M1,5 L11,5"></path>
                         <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
-                    <span>The Rolling Pin</span>
+                    <span>WooCommerce</span>
                 </Link>
                 <Link className="link-fwd" to="/MockUp">
                     <span>Mockup</span>
