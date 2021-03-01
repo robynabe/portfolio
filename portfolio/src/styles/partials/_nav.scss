@@ -3,19 +3,18 @@
   z-index: 2;
   width: 100%;
   bottom: 0;
-  padding: 20px 0 30px 0;
+  padding: 15px 0 40px 0;
   background-color: black;
   h4 {
     display: none;
+    color: white;
   }
 
   @media (min-width: 650px) {
     position: unset;
     width: 200px;
     background-color: transparent;
-    h4 {
-      color: white;
-    }
+    padding: 20px 0 30px 0;
   }
 }
 .main-nav ul {

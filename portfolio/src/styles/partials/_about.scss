@@ -70,6 +70,15 @@
     justify-content: space-around;
   }
 }
+
+.soft-skills li {
+  max-width: 150px;
+  display: block;
+  margin: 5px auto;
+  padding: 5px 15px;
+  background: rgba(black, 0.1);
+  border-radius: 28px;
+}
 .favourites ul {
   text-align: center;
   i {
@@ -79,4 +88,5 @@
 }
 .education span {
   font-size: 22px;
+  line-height: 30px;
 }

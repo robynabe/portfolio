@@ -78,6 +78,15 @@ function MovieApp() {
                 <TabPanel>
                     <div className="details-container">
                         <div className="project-details">
+                            <div className="specs">
+                                <h3>Project specs</h3>
+                                <ul>
+                                    <li><b>Project Type: </b> Collaborative, team of three</li>
+                                    <li><b>Project Duration: </b> 5 weeks</li>
+                                    <li><b>Responsiveness: </b> mobile, tablet, desktop</li>
+                                    <li><b>Other Specs: </b> The Movie Database API</li>
+                                </ul>
+                            </div>
                             <div className="tools-used">
                                 <h3>Tools Used</h3>
                                 <ul>
@@ -90,36 +99,42 @@ function MovieApp() {
                                     <li>Gulp</li>
                                 </ul>
                             </div>
-                            <div className="specs">
-                                <h3>Project specs</h3>
-                                <ul>
-                                    <li><b>Project Type: </b> Collaborative, team of three</li>
-                                    <li><b>Project Duration: </b> 5 weeks</li>
-                                    <li><b>Responsiveness: </b> mobile, tablet, desktop</li>
-                                    <li><b>Other Specs: </b> The Movie Database API</li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </TabPanel>
 
                 <TabPanel>
                     <div className="details-container">
-                        <p>This project did not go without its problems. We definitely fought some battles with the favourites button feature and local storage. 
-                            We needed this button to work both on the home page as well as on the selected individual movie page. 
-                        </p>
-                        <p>To overcome these issues we spent a lot of time commenting out code and taking it back to square one to source the issues. 
-                            We worked as a team to do so, as more brains are better than one. Most importantly, we knew when to ask for help.
-                        </p>
-                        <p>There is always room for improvement and for this project in particular we could have created more external functions/components 
-                        so that they could be used in a global manner throughout the project. This would overall the organisation as well.
-                        </p>
-                        <h3>Skills Acquired</h3>
-                        <ul>
-                            <li>API calls</li>
-                            <li>React syntax</li>
-                            <li>Local storage use</li>
-                        </ul>
+                        
+                        <div className="reflection">
+                            <div>
+                                <h3><span></span><b>1.</b> The Challenges</h3>
+                                <p>The most challenging part of this project was implementing the favourites buttons using local storage on multiple pages.</p>
+                            </div>
+                            <div>
+                                <h3><span></span><b>2.</b> The Solution</h3>
+                                <p>To overcome this challenge we spent a lot of time commenting out code until we located the source the problem. 
+                                    We worked as a team to accomplish this as multiple brains are better than one. Most importantly, we knew when to ask for help.
+                                </p>
+                            </div>
+                            <div>
+                                <h3><span></span><b>3.</b> The Improvements</h3>
+                                <p>There is always room for improvement and for this project in particular we could have created more external functions/components 
+                                so that they could be used in a global manner throughout the project. This would overall the organisation as well.
+                                </p>
+                            </div>
+    
+                        </div>
+
+                        <div className="skills">
+                            <h3>Skills Acquired</h3>
+                            <ul>
+                                <li>API calls</li>
+                                <li>React syntax</li>
+                                <li>Local storage use</li>
+                            </ul>
+                        </div>
+
                     </div>
                 </TabPanel>
             </Tabs>

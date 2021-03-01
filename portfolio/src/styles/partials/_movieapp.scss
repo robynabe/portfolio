@@ -29,26 +29,13 @@
   margin: 0 auto;
 }
 
-// Development tab
-@media (min-width: 900px) {
-  .feature-one {
-    display: flex;
-    justify-content: space-between;
-  }
-  .feature-two {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-  }
-}
-
 // Features Tab
 
 .feature {
   h3 {
     position: relative;
     margin-top: 60px;
+    font-size: 1.5rem;
     b {
       font-family: relation-two, sans-serif;
       font-size: 3rem;
