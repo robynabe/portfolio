@@ -2,7 +2,8 @@
 import MovieAppImg from '../images/movie-app-home1200.jpg';
 import BrochureImg from '../images/brochure-products1200.jpg';
 import MockupImg from '../images/movie-mockup-home1200.jpg';
-import PlaceholderImg from '../images/code-placeholder-img.png';
+import PorfolioImg from '../images/portfolio-home1200.jpg';
+import ComingSoon from '../images/coming-soon.jpg';
 
 
 export const projects = [
@@ -31,7 +32,7 @@ export const projects = [
         overview: 'This project was  created to showcase all of the highlighted projects I have completely. I built this website individually using React to practice the structure, syntax and functionality',
         sort: 'react',
         page: 'Portfolio',
-        image: `${PlaceholderImg}`
+        image: `${PorfolioImg}`
     },
     {
         name: 'The Rolling Pin',
@@ -40,7 +41,7 @@ export const projects = [
         overview: 'Coming Soon... Hold tight!',
         sort: 'other',
         page: '/',
-        image: `${PlaceholderImg}`
+        image: `${ComingSoon}`
     },
     {
         name: 'Holey Moley Doughnuts',
