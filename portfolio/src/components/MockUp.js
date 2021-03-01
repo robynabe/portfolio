@@ -10,7 +10,7 @@ import guideImg from '../images/photoshop-guides.png';
 function MockUp() {
     return (
         <main className="single-main">
-            <h1>Movie App Mockup Project</h1>
+            <h1>Movie App Mockup</h1>
             <SimpleSlider />
 
             <div className="about-project">

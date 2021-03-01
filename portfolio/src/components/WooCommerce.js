@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function WooCommerce() {
     return (
         <main>
-            <h1>The Rolling Pin Project</h1>
+            <h1>The Rolling Pin</h1>
             <Tabs>
                 <TabList>
                     <Tab><h3>Planning</h3></Tab>

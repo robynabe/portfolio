@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import cineflixImg from '../images/movie-app-home.png';
-import cineflixHome from '../images/react-slideshow-home.png'
-import cineflixAbout from '../images/react-slideshow-about.png';
-import cineflixFav from '../images/react-slideshow-favourites.png'
-import cineflixSingle from '../images/react-slideshow-individual.png';
+import cineflixImg from '../images/movie-app-home1200.jpg';
+import cineflixHome from '../images/react-slideshow-home1200.jpg'
+import cineflixAbout from '../images/react-slideshow-about1200.jpg';
+import cineflixFav from '../images/react-slideshow-favourites1200.jpg'
+import cineflixSingle from '../images/react-slideshow-individual1200.jpg';
 
 export default class SimpleSlider extends Component {
   render() {

@@ -1,7 +1,7 @@
 // PROJECT ARRAY //
-import MovieAppImg from '../images/movie-app-home.png';
-import BrochureImg from '../images/brochure-products.png';
-import MockupImg from '../images/movie-mockup-home.png';
+import MovieAppImg from '../images/movie-app-home1200.jpg';
+import BrochureImg from '../images/brochure-products1200.jpg';
+import MockupImg from '../images/movie-mockup-home1200.jpg';
 import PlaceholderImg from '../images/code-placeholder-img.png';
 
 

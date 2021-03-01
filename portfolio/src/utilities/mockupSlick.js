@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import mockupHome from '../images/movie-mockup-home.png';
-import mockupSingle from '../images/movie-mockup-single.png';
-import mockupFav from '../images/movie-mockup-favourites.png';
+import mockupHome from '../images/movie-mockup-home1200.jpg';
+import mockupSingle from '../images/movie-mockup-single1200.jpg';
+import mockupFav from '../images/movie-mockup-favourites1200.jpg';
 
 export default class SimpleSlider extends Component {
   render() {

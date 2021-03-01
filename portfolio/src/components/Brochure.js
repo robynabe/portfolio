@@ -3,7 +3,6 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
-//import brochureImg from '../images/brochure-home.png'
 import navVid from '../videos/brochure-nav-vid.webm';
 import sliderVid from '../videos/brochure-slideshow-vid.webm';
 

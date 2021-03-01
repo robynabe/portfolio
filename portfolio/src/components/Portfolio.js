@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function Portfolio() {
     return (
         <main>
-            <h1>Portfolio Project</h1>
+            <h1>Portfolio</h1>
             <Tabs>
                 <TabList>
                     <Tab><h3>Planning</h3></Tab>
