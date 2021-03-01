@@ -14,6 +14,7 @@
     }
   }
 }
+// One project container //
 .project {
   position: relative;
   display: block;
@@ -28,22 +29,9 @@
     transform: scale(1.03);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   }
-  @media (min-width: 800px) {
+  @media (min-width: 950px) {
     display: flex;
     max-width: 1000px;
-  }
-}
-@media (min-width: 800px) {
-  .project-container {
-    display: block;
-    max-width: 1000px;
-    margin: 50px auto 100px auto;
-  }
-  .project-info {
-    position: relative;
-    width: 100%;
-    margin-left: 20px;
-    padding: 5px;
   }
 }
 @keyframes fadein {
@@ -52,6 +40,23 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+// Project info containers //
+.project-info {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  @media (min-width: 950px) {
+    margin-left: 20px;
+  }
+}
+.project-container {
+  @media (min-width: 800px) {
+    display: block;
+    max-width: 1000px;
+    margin: 50px auto 100px auto;
   }
 }
 
@@ -108,7 +113,7 @@
   float: right;
   text-decoration: none;
   margin: 0;
-  padding: 10px 15px;
+  padding: 10px;
   display: flex;
   // Hover effect by Andreas Storm
   position: relative;
@@ -127,11 +132,14 @@
   }
   span {
     position: relative;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 18px;
     font-weight: 900;
     letter-spacing: 0.25em;
     text-transform: uppercase;
+    @media (min-width: 650px) {
+      font-size: 14px;
+    }
   }
   svg {
     position: relative;

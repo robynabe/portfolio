@@ -16,6 +16,15 @@ export const projects = [
         image: `${MovieAppImg}`
     },
     {
+        name: 'Movie App Mockup',
+        alt: 'Movie mock up in Photoshop',
+        tools: 'Photoshop | Illustrator',
+        overview: 'This movie app high fidelity mock-up was made primarily in Adobe Photoshop, while using a few assets created with Adobe Illustrator. Although this was not used for the live site, it showcases Adobe skills.',
+        sort: 'other',
+        page: 'MockUp',
+        image: `${MockupImg}`
+    },
+    {
         name: 'Portfolio',
         alt: 'Portolfio website',
         tools: 'React | Sass | JavaScript',
@@ -41,15 +50,6 @@ export const projects = [
         sort: 'other',
         page: 'Brochure',
         image: `${BrochureImg}`
-    },
-    {
-        name: 'Movie App Mockup',
-        alt: 'Movie mock up in Photoshop',
-        tools: 'Photoshop | Illustrator',
-        overview: 'This movie app high fidelity mock-up was made primarily in Adobe Photoshop, while using a few assets created with Adobe Illustrator. Although this was not used for the live site, it showcases Adobe skills.',
-        sort: 'other',
-        page: 'MockUp',
-        image: `${MockupImg}`
     }
 
 ]
