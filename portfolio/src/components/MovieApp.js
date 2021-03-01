@@ -11,10 +11,10 @@ function MovieApp() {
 
     return (
         <main className="single-main">
-            <h1>Cineflix Project</h1>
+            <h1>Cineflix Movie App</h1>
             <SimpleSlider />
                 <div className="single-links">
-                    <a className="link-left" href="https://github.com/robynabe/portoflio" rel="noreferrer" target="_blank">Github Repo</a>
+                    <a className="link-left" href="https://github.com/robynabe/react-movie-app" rel="noreferrer" target="_blank">Github Repo</a>
                     <a className="link-right" href="#0" target="_blank">Live Project</a>
                 </div>
                 <div className="about-project">
@@ -81,7 +81,7 @@ function MovieApp() {
                             <div className="specs">
                                 <h3>Project specs</h3>
                                 <ul>
-                                    <li><b>Project Type: </b> Collaborative, team of three</li>
+                                    <li><b>Project Type: </b> Collaborative, team of 3</li>
                                     <li><b>Project Duration: </b> 5 weeks</li>
                                     <li><b>Responsiveness: </b> mobile, tablet, desktop</li>
                                     <li><b>Other Specs: </b> The Movie Database API</li>

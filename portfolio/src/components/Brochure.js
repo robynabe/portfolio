@@ -10,90 +10,121 @@ import sliderVid from '../videos/brochure-slideshow-vid.webm';
 function Brochure() {
     return (
         <main className="single-main">
-            <h1>Holey Moley Doughnuts Project</h1>
+            <h1>Business Brochure</h1>
+
             <video className="single-main-img" autoPlay loop muted playsInline>
                 <source src={sliderVid}
                         type="video/webm"
                         alt="Slick slideshow preview" />
             </video>
+
+            <div className="single-links">
+                    <a className="link-left" href="https://github.com/robynabe/business-brochure" rel="noreferrer" target="_blank">Github Repo</a>
+                    <a className="link-right" href="#0" target="_blank">Live Project</a>
+            </div>
+
             <div className="about-project">
                 <h3>What is this project all about?</h3>
-                <p>This project was a fun one! My partner and I really had the opportunity to create something
-                    from scratch and explore our CSS/Sass skills without border, as the main focus was learning Sass and working
-                    collabortively with Github. This was a static, although we wanted it to be laid out more like an ecommerce site would display.
-                    Realistically it functions solely as an informational business brochure website. It was built with only in HTML, Sass and 
-                    vanilla JavaScript. 
+                <p>This project is a static business brochure style website where my partner and I had the opportunity to create something
+                    from scratch and explore our CSS/Sass skills without border. The main focus was learning Sass and working
+                    collabortively with Github. It was built with only in HTML, Sass and vanilla JavaScript. 
                 </p>
+                <ul>
+                    <li><i className="fab fa-html5"></i></li>
+                    <li><i className="fab fa-github"></i></li>
+                    <li><i className="fab fa-js-square"></i></li>
+                    <li><i className="fab fa-sass"></i></li>
+                </ul>
             </div>
+            
             <Tabs className="tabs-wrapper">
                 <TabList>
-                    <Tab><h3>Planning</h3></Tab>
-                    <Tab><h3>Development</h3></Tab>
+                    <Tab><h3>Features</h3></Tab>
+                    <Tab><h3>ToolKit</h3></Tab>
                     <Tab><h3>Reflection</h3></Tab>
                 </TabList>
 
                 <TabPanel>
                     <div className="details-container">
-                        <p>We started this project browsing Pinterest and Adobe color for design and palette inspiration 
-                            and began scribbling out layout idea on paper. As eager as we were to build, our wireframes remained as such. 
-                            Once decided on colours and a basic home page layout, we divided and conquered the input of the content and styled the site as a team.
-                            The planning process mainly consisted of verbal communication back and forth, as we worked great together and our ideas
-                            meshed quite well.
-                        </p>
+                        <div className="feature brochure">
+
+                            <div>
+                                <h3><span></span><b>1.</b> Mobile Navigation</h3>
+                                <p>Although this project was mainly hard coded, we tried to implement some animations and dynamic features. We added a 
+                                    smooth mobile navigation and a product image slideshow on the home page which featured multiple “customer testimonials”.
+                                </p>
+                            </div>
+
+                            <video autoPlay loop muted playsInline className="nav-vid">
+                                <source src={navVid}
+                                        type="video/webm"
+                                        alt="Mobile navigation animation preview"/>
+                            </video>
+
+                        </div>
                     </div>
                 </TabPanel>
 
                 <TabPanel>
                     <div className="details-container">
                         <div className="project-details">
-                            <div className="tools-used">
-                                <h4>Tools Used</h4>
+
+                            <div className="specs">
+                                <h3>Project specs</h3>
                                 <ul>
-                                    <li>JavaScript</li>
+                                    <li><b>Project Type:</b> Collaborative, team of 2</li>
+                                    <li><b>Project Duration:</b> 4 weeks</li>
+                                    <li><b>Responsiveness:</b> mobile, tablet, desktop</li>
+                                    <li><b>Other:</b> Slick slideshow</li>
+                                </ul>
+                            </div>
+
+                            <div className="tools-used">
+                                <h3>Tools Used</h3>
+                                <ul>
                                     <li>HTML</li>
                                     <li>Sass</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
                                     <li>Github</li>
+                                    <li>JQuery</li>
                                 </ul>
                             </div>
-                            <div className="specs">
-                                <h4>Project specs</h4>
-                                <ul>
-                                    <li>Collaborative project: team of 2</li>
-                                    <li>Project duration: 4 weeks</li>
-                                    <li>Responsiveness: mobile, tablet, desktop</li>
-                                    <li>Other: Slick slideshow</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="features">
-                            <div className="feature-one">
-                                <p>Although this project was mainly hard coded, we tried to implement some animations and dynamic features. We added a 
-                                    smooth mobile navigation and a product image slideshow on the home page which featured multiple “customer testimonials”.
-                                </p>
-                                <video autoPlay loop muted playsInline className="nav-vid">
-                                    <source src={navVid}
-                                            type="video/webm"
-                                            alt="Mobile navigation animation preview"/>
-                                </video>
-                            </div>
+
                         </div>
                     </div>
                 </TabPanel>
 
                 <TabPanel>
                     <div className="details-container">
-                        <p>Our main challenge with this site was using github collaboratively. Because this site was quite small, we had a few merge conflicts and some deleted code. 
-                        We overcame this issue quite quickly as we learned more about the functionalities of github and communication was key. This project mainly focused on styling 
-                        skills, so our main improvement would be to utilize all the aspects that Sass offers to help organize the styling better and create less work for ourselves.
-                        </p> 
 
-                        <h4>Skills Acquired during this project</h4>
-                        <ul>
-                            <li>Functionality of Sass</li>
-                            <li>Slick slideshow manipulation</li>
-                            <li>Embedded Google maps</li>
-                            <li>Collaborative Github use</li>
-                        </ul> 
+                        <div className="reflection">
+                            <div>
+                                <h3><span></span><b>1.</b> The Challenges</h3>
+                                <p>The most challenging part of this project was using github collaboratively for the first time, as this site was quite small.</p>
+                            </div>
+                            <div>
+                                <h3><span></span><b>2.</b> The Solution</h3>
+                                <p>We overcame this challenge very quickly as we learned the ins and outs of github and communicated frequently.
+                                </p>
+                            </div>
+                            <div>
+                                <h3><span></span><b>3.</b> The Improvements</h3>
+                                <p>This project mainly focused on styling skills, so our main improvement would be to utilize all the aspects that 
+                                Sass offers to help organize the styling better and create less work for ourselves. </p>
+                            </div>
+                        </div>
+
+                        <div className="skills">
+                            <h3>Skills Acquired during this project</h3>
+                            <ul>
+                                <li>Functionality of Sass</li>
+                                <li>Slick slideshow manipulation</li>
+                                <li>Embedded Google maps</li>
+                                <li>Collaborative Github use</li>
+                            </ul> 
+                        </div>
+
                     </div>         
                 </TabPanel>
             </Tabs>

@@ -9,6 +9,9 @@
     letter-spacing: 0.25em;
     text-align: center;
     font-size: 2.5rem;
+    @media (min-width: 650px) {
+      font-size: 3.5rem;
+    }
   }
 }
 .project {
@@ -51,6 +54,7 @@
     opacity: 1;
   }
 }
+
 .project-section-link {
   text-decoration: none;
   color: black;
