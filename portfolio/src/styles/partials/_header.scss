@@ -26,7 +26,4 @@ header {
   width: 120px;
   margin: 10px;
   filter: invert(100%);
-  &:hover {
-    filter: drop-shadow(0 0 0.2rem rgba(black, 0.2));
-  }
 }
