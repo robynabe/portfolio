@@ -40,6 +40,7 @@ function Portfolio() {
 
                 <TabPanel>
                     <div className="details-container">
+
                         <div className="feature">
                             <h3><span></span><b>1.</b>Internal Sorting - The Outcome</h3>
 
@@ -52,22 +53,25 @@ function Portfolio() {
 
                                 <p> This feature sorts through the internal data of the web page to find and display relevant projects. <br/>
                                     To accomplish this I use a simple Hook function(useState) to grab the original project information 
-                                    from an internal object, filter through the data and return only the projects with the correlating categories</p>
+                                    from an internal object, filter through the data and return only the projects with the correlating categories.</p>
                             </div>
                         </div> 
+
                         <div className="feature">
                             <h3><span></span><b>2.</b>Internal Sorting - The Code</h3>
 
                             <div className="feature-details">
                                  <img src={PortfolioImg} alt="Internal sorting code" className="portfolio-code-img"/>
                             </div>
-                        </div>   
+                        </div>  
+
                     </div>
                 </TabPanel>
 
                 <TabPanel>
                     <div className="details-container">
                            <div className="project-details">
+
                             <div className="specs">
                                 <h3>Project specs</h3>
                                 <ul>
@@ -76,6 +80,7 @@ function Portfolio() {
                                     <li><b>Responsiveness: </b> mobile, tablet, desktop</li>
                                 </ul>
                             </div>
+
                             <div className="tools-used">
                                 <h3>Tools Used</h3>
                                 <ul>
@@ -88,6 +93,7 @@ function Portfolio() {
                                     <li>JQuery</li>
                                 </ul>
                             </div>
+
                         </div>
                     </div>
                 </TabPanel>
@@ -104,7 +110,7 @@ function Portfolio() {
                             <div>
                                 <h3><span></span><b>2.</b> The Solution</h3>
                                 <p>I tried to incorporate my own small database of porjects and other external functions to show the simplicity of retrieving data from 
-                                    an API-like situation, as well as passing data from one page to another. I also a project sorting feature, along with an npm react-tabs 
+                                    an API-like situation, as well as passing data from one page to another. I also implemented a project sorting feature, along with npm react-tabs 
                                     to diversify the project.
                                 </p>
                             </div>
@@ -132,6 +138,7 @@ function Portfolio() {
                 </TabPanel>
             </Tabs>
             <div className="links-container">
+
                 <Link className="link-bck" to="/MovieApp">
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
@@ -139,6 +146,7 @@ function Portfolio() {
                     </svg>
                     <span>Cineflix</span>
                 </Link>
+
                 <Link className="link-fwd" to="/">
                     <span>WooCommerce</span>
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
@@ -146,13 +154,10 @@ function Portfolio() {
                         <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
                 </Link>
+                
             </div>
-
         </main>
-    
-);
-    
-
+    );
 }
 export default Portfolio;
 

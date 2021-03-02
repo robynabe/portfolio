@@ -16,11 +16,13 @@ function Header() {
 
   return (
     <header id="header">
+
       <div className="header">
         <h1 id="header-title">Web Developer</h1>
         <Link to={'/'}><img className="logo" src={logo} alt="logo"/></Link>
         <Nav />
       </div>
+      
     </header>
   );
 }

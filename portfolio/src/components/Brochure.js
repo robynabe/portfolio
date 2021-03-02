@@ -24,11 +24,12 @@ function Brochure() {
             </div>
 
             <div className="about-project">
-                <h3>What is this project all about?</h3>
-                <p>This project is a static business brochure style website where my partner and I had the opportunity to create something
+                <h2>What is this project all about?</h2>
+                <p>This project is a static business brochure website where my partner and I had the opportunity to create something
                     from scratch and explore our CSS/Sass skills without border. The main focus was learning Sass and working
                     collabortively with Github. It was built with only in HTML, Sass and vanilla JavaScript. 
                 </p>
+
                 <ul>
                     <li><i className="fab fa-html5"></i></li>
                     <li><i className="fab fa-github"></i></li>
@@ -116,7 +117,7 @@ function Brochure() {
                         </div>
 
                         <div className="skills">
-                            <h3>Skills Acquired during this project</h3>
+                            <h3>Skills Acquired</h3>
                             <ul>
                                 <li>Functionality of Sass</li>
                                 <li>Slick slideshow manipulation</li>
@@ -129,6 +130,7 @@ function Brochure() {
                 </TabPanel>
             </Tabs>
             <div className="links-container">
+
                 <Link className="link-bck" to="/">
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
@@ -136,6 +138,7 @@ function Brochure() {
                     </svg>
                     <span>WooCommerce</span>
                 </Link>
+
                 <Link className="link-fwd" to="/MockUp">
                     <span>Mockup</span>
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
@@ -143,12 +146,9 @@ function Brochure() {
                         <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
                 </Link>
+                
             </div>
-
         </main>
-    
-);
-    
-
+    );
 }
 export default Brochure;

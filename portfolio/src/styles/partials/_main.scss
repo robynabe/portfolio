@@ -1,6 +1,6 @@
 // MAIN CONTENT STYLES //
 
-// containers
+// containers //
 .main-projects {
   padding: 15px;
   h1 {
@@ -14,7 +14,8 @@
     }
   }
 }
-// One project container //
+
+// Single project container //
 .project {
   position: relative;
   display: block;
@@ -59,7 +60,6 @@
     margin: 50px auto 100px auto;
   }
 }
-
 .project-section-link {
   text-decoration: none;
   color: black;
@@ -93,7 +93,7 @@
   }
 }
 
-// Border styling
+// Border styling //
 .corner-border {
   position: absolute;
   top: 0;
@@ -104,7 +104,7 @@
   border-left: solid rgba(black, 0.1) 4px;
 }
 
-// elements
+// elements //
 .main-projects h2 {
   margin-top: 10px;
 }

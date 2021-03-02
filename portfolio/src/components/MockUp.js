@@ -15,11 +15,12 @@ function MockUp() {
             <SimpleSlider />
 
             <div className="about-project">
-                <h3>What is this project all about?</h3>
+                <h2>What is this project all about?</h2>
                 <p>This project is a high fidelity mockup made in Adobe Photoshop for a movie application. 
-                    It did not involve any code at all and was completely focused on design and the use of 
+                    It did not involve any code, as it was completely focused on the design and the use of 
                     Adobe Photoshop and Illustrator. The idea was to make a mockup using proper layering techniques and precision. 
                 </p>
+
                 <div className="mockup-tools">
                     <p><b>Photoshop</b></p>
                     <p><b>Illustrator</b></p>
@@ -51,6 +52,7 @@ function MockUp() {
                                    features into folders so that, in theory, someone could use this to see how the application would work in real time.
                                 </p>
                             </div>
+
                             <div className="mockup-img-wrapper">
                                 <img src={layerImg} alt="Photoshop layer folders"/>
                                 <img src={guideImg} alt="Photoshop guides"/>
@@ -64,6 +66,7 @@ function MockUp() {
                 <TabPanel>
                     <div className="details-container">
                         <div className="project-details">
+
                             <div className="specs">
                                 <h3>Project specs</h3>
                                 <ul>
@@ -72,6 +75,7 @@ function MockUp() {
                                     <li><b>Responsiveness:</b> desktop, mobile </li>
                                 </ul>
                             </div>
+
                             <div className="tools-used">
                                 <h3>Tools Used</h3>
                                 <ul className="adobe-tools">
@@ -128,6 +132,7 @@ function MockUp() {
                 </TabPanel>
             </Tabs>
             <div className="links-container">
+
                 <Link className="link-bck" to="/Brochure">
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
@@ -135,6 +140,7 @@ function MockUp() {
                     </svg>
                     <span>Brochure</span>
                 </Link>
+
                 <Link className="link-fwd" to="/MovieApp">
                     <span>Cineflix</span>
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
@@ -142,12 +148,9 @@ function MockUp() {
                         <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
                 </Link>
+
             </div>
-
         </main>
-    
-);
-    
-
+    );
 }
 export default MockUp;

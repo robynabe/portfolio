@@ -1,4 +1,4 @@
-// Above the tab content
+// Above the tab content //
 .single-main {
   padding: 20px;
   h1 {
@@ -62,7 +62,7 @@
   }
 }
 
-// Tab Styling
+// Tab Styling //
 .tabs-wrapper {
   display: block;
   margin: 0 auto;
@@ -95,14 +95,14 @@
     width: 220px;
   }
 }
-
 .links-container {
   display: flex;
   justify-content: space-between;
   margin: 100px auto 50px;
   text-transform: uppercase;
 }
-// Next & Previous page styling and hover effect
+
+// Next & Previous page styling and hover effect //
 .link-fwd,
 .link-bck {
   text-decoration: none;
@@ -152,7 +152,7 @@
     }
   }
 }
-
+// Arrow pointing right //
 .link-fwd {
   &:before {
     content: "";
@@ -167,6 +167,7 @@
     }
   }
 }
+// Arrow pointing left //
 .link-bck {
   &:before {
     content: "";
@@ -182,7 +183,7 @@
   }
 }
 
-// Tab content styling
+// Tab content styling //
 .details-container {
   padding: 20px;
 }
@@ -196,8 +197,7 @@
   }
 }
 
-// Features Tab
-
+// Features Tab //
 .feature {
   h3 {
     position: relative;
@@ -233,7 +233,7 @@
   }
 }
 
-// Toolkit tab
+// Toolkit tab //
 .tools-used {
   ul {
     list-style: none;
@@ -250,17 +250,17 @@
     border-radius: 28px;
   }
 }
-
 .specs {
   ul {
     list-style: none;
     padding: 0;
     line-height: 40px;
     margin-bottom: 40px;
+    font-size: 1.2rem;
   }
 }
 
-// Reflection tab
+// Reflection tab //
 .reflection {
   div {
     margin: 50px 0;

@@ -11,8 +11,8 @@ function WooCommerce() {
             <h1>The Rolling Pin</h1>
             <Tabs>
                 <TabList>
-                    <Tab><h3>Planning</h3></Tab>
-                    <Tab><h3>Development</h3></Tab>
+                    <Tab><h3>Process</h3></Tab>
+                    <Tab><h3>Toolkit</h3></Tab>
                     <Tab><h3>Reflection</h3></Tab>
                 </TabList>
 
@@ -28,7 +28,9 @@ function WooCommerce() {
                     <div className="details-container">Coming Soon!</div>
                 </TabPanel>
             </Tabs>
+
             <div className="links-container">
+
                 <Link className="link-bck" to="/portfolio">
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
@@ -36,6 +38,7 @@ function WooCommerce() {
                     </svg>
                     <span>Portfolio</span>
                 </Link>
+
                 <Link className="link-fwd" to="/Brochure">
                     <span>Brochure</span>
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
@@ -43,12 +46,9 @@ function WooCommerce() {
                         <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
                 </Link>
+
             </div>
-
-        </main>
-    
-);
-    
-
+        </main> 
+    );
 }
 export default WooCommerce;

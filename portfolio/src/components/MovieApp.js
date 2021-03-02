@@ -21,9 +21,9 @@ function MovieApp() {
             </div>
 
             <div className="about-project">
-                <h2>What's this all about?</h2>
+                <h2>What's this project all about?</h2>
                 <p>This project is a dynamic yet simple movie application built with React that 
-                    collects real time data through The Movie Database API. It started as a high fidelity mockup and photoshop,
+                    collects real time data through The Movie Database API. It started as a high fidelity mockup in photoshop,
                     where two separate designs were merged into one. It was then transformed into a fully functioning website.
                 </p>
                 <ul>
@@ -43,24 +43,26 @@ function MovieApp() {
 
                 <TabPanel>
                     <div className="details-container">
+
                         <div className="feature">
                             <p>This Project was built around two main features, both which required quite a bit of JavaScript,
-                                external data use and teamwork. </p>
+                                external data use and teamwork.
+                            </p>
                                 <h3><span></span><b>1.</b> The Favourites Feature</h3>
 
-                                <div className="feature-details">
-                                    <video autoPlay loop muted playsInline className="favourites-vid">
-                                    <source src={favVid}
-                                            type="video/webm"
-                                            alt="Favourites button function preview"/>
-                                    </video>
-
-                                    <p>This feature was created after successful API connection in order to allow users to select and store movies for later for a more
-                                        interactive atmosphere. We are provided the ability to favourite movies from multiple categories and pages, as well as 
-                                        unfavourite movies they no longer wanted. These selections used local stoarge for memory.
-                                    </p>
-                                </div>
+                            <div className="feature-details">
+                                <video autoPlay loop muted playsInline className="favourites-vid">
+                                <source src={favVid}
+                                        type="video/webm"
+                                        alt="Favourites button function preview"/>
+                                </video>
+                                <p>This feature was created after successful API connection in order to allow users to select and store movies for later for a more
+                                    interactive atmosphere. We are provided the ability to favourite movies from multiple categories and pages, as well as 
+                                    unfavourite movies they no longer wanted. These selections used local storage for memory.
+                                </p>
+                            </div>
                         </div>
+
                         <div className="feature">
                             <h3><span></span><b>2.</b> The Sorting Feature</h3>
 
@@ -75,13 +77,15 @@ function MovieApp() {
                                     different categories: Popular, Now Playing, Top Rated and Coming Soon.
                                 </p>
                             </div>
-                        </div>                
+                        </div> 
+
                     </div>
                 </TabPanel>
 
                 <TabPanel>
                     <div className="details-container">
                         <div className="project-details">
+
                             <div className="specs">
                                 <h3>Project specs</h3>
                                 <ul>
@@ -91,6 +95,7 @@ function MovieApp() {
                                     <li><b>Other Specs: </b> The Movie Database API</li>
                                 </ul>
                             </div>
+
                             <div className="tools-used">
                                 <h3>Tools Used</h3>
                                 <ul>
@@ -103,6 +108,7 @@ function MovieApp() {
                                     <li>Gulp</li>
                                 </ul>
                             </div>
+
                         </div>
                     </div>
                 </TabPanel>
@@ -124,7 +130,7 @@ function MovieApp() {
                             <div>
                                 <h3><span></span><b>3.</b> The Improvements</h3>
                                 <p>There is always room for improvement and for this project in particular we could have created more external functions/components 
-                                so that they could be used in a global manner throughout the project. This would overall the organisation as well.
+                                so that they could be used in a global manner throughout the project. This would improve the overall organization of the site.
                                 </p>
                             </div>
     
@@ -144,6 +150,7 @@ function MovieApp() {
                 </TabPanel>
             </Tabs>
             <div className="links-container">
+
                 <Link className="link-bck" to="/MockUp">
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
@@ -151,6 +158,7 @@ function MovieApp() {
                     </svg>
                     <span>Mockup</span>
                 </Link>
+
                 <Link className="link-fwd" to="/portfolio">
                     <span>Portfolio</span>
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
@@ -158,11 +166,10 @@ function MovieApp() {
                         <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
                 </Link>
+
             </div>
         </main>
     
-);
-    
-
+    );
 }
 export default MovieApp;

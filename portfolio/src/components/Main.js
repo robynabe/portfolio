@@ -24,19 +24,24 @@ const Main = () => {
     return (
         <main className="main-projects">
             <h1>Projects</h1>
+
             <div className="filter-btns">
                 <button onClick={() => showAll()} active="true">All Projects</button>
                 <button onClick={() => showReact()}>React Projects</button>
                 <button onClick={() => showOther()}>Other Projects</button>
             </div> 
+
             <div className="project-container">
+
                 {projectFilter.map((project, index) => (
                 <section key={index} className={project.sort}>
+                    
                     <div className="project">
                         <div className="corner-border"></div>
                         <div className="img-container">
                             <img className="projects-img" src={project.image} alt={project.alt} />
                         </div>
+
                         <div className="project-info">
                             <Link to={project.page} className="see-project-link">
                                 <span>See Project</span>
@@ -51,9 +56,11 @@ const Main = () => {
                                 <p>{project.overview}</p>
                             </Link>
                         </div>
+
                     </div>
                 </section>
             ))}
+
             </div>
         </main>
     )

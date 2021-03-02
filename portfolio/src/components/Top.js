@@ -1,7 +1,5 @@
 // SCROLL TO TOP COMPONENT //
 
-
-
 function Top() {
 
   return (
@@ -10,5 +8,4 @@ function Top() {
     </a>
   );
 }
-
 export default Top;
