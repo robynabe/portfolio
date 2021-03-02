@@ -75,7 +75,7 @@ function Brochure() {
                                     <li><b>Project Type:</b> Collaborative, team of 2</li>
                                     <li><b>Project Duration:</b> 4 weeks</li>
                                     <li><b>Responsiveness:</b> mobile, tablet, desktop</li>
-                                    <li><b>Other:</b> Slick slideshow</li>
+                                    <li><b>Other Specs:</b> Slick slideshow</li>
                                 </ul>
                             </div>
 
@@ -129,7 +129,7 @@ function Brochure() {
                 </TabPanel>
             </Tabs>
             <div className="links-container">
-                <Link className="link-bck" to="/WooCommerce">
+                <Link className="link-bck" to="/">
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
                         <polyline points="8 1 12 5 8 9"></polyline>
