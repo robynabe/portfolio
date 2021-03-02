@@ -8,8 +8,8 @@ function Footer() {
     <footer>
       <Top />
       <div className="social-links">
-        <a href="https://www.linkedin.com/in/robyn-abe-03633b1a8/" target="_blank"><i className="fab fa-twitter"></i></a>
-        <a href="https://twitter.com/robynabe20" target="_blank"><i className="fab fa-linkedin-in"></i></a>
+        <a href="https://www.linkedin.com/in/robyn-abe-03633b1a8/" rel="noreferrer" target="_blank"><i className="fab fa-twitter"></i></a>
+        <a href="https://twitter.com/robynabe20" rel="noreferrer" target="_blank"><i className="fab fa-linkedin-in"></i></a>
       </div>
       <p>Created by <a href="https://github.com/robynabe">Robyn Abe</a> &copy;{makeYear()} • robynabe20@gmail.com</p>
     </footer>

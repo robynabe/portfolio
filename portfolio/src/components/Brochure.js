@@ -20,7 +20,7 @@ function Brochure() {
 
             <div className="single-links">
                     <a className="link-left" href="https://github.com/robynabe/business-brochure" rel="noreferrer" target="_blank">Github Repo</a>
-                    <a className="link-right" href="#0" target="_blank">Live Project</a>
+                    <a className="link-right" href="#0" rel="noreferrer" target="_blank">Live Project</a>
             </div>
 
             <div className="about-project">
@@ -75,7 +75,7 @@ function Brochure() {
                                     <li><b>Project Type:</b> Collaborative, team of 2</li>
                                     <li><b>Project Duration:</b> 4 weeks</li>
                                     <li><b>Responsiveness:</b> mobile, tablet, desktop</li>
-                                    <li><b>Other Specs:</b> Slick slideshow</li>
+                                    <li><b>Other Specs:</b> Slick Slideshow</li>
                                 </ul>
                             </div>
 

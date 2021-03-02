@@ -4,6 +4,7 @@ import { projects } from '../data/projects';
 import { Link } from 'react-router-dom';
 
 const Main = () => {
+    window.scrollTo(0,0);
 
     const [projectFilter, setProjectFilter] = useState(projects);
 
@@ -31,7 +32,6 @@ const Main = () => {
             <div className="project-container">
                 {projectFilter.map((project, index) => (
                 <section key={index} className={project.sort}>
-                    <Link to={project.page} className="project-section-link">
                     <div className="project">
                         <div className="corner-border"></div>
                         <div className="img-container">
@@ -45,12 +45,13 @@ const Main = () => {
                                     <polyline points="8 1 12 5 8 9"></polyline>
                                 </svg>
                             </Link>
-                            <h2>{project.name}</h2>
-                            <p>{project.tools}</p>
-                            <p>{project.overview}</p>
+                            <Link to={project.page} className="project-section-link">
+                                <h2>{project.name}</h2>
+                                <p>{project.tools}</p>
+                                <p>{project.overview}</p>
+                            </Link>
                         </div>
                     </div>
-                    </Link>
                 </section>
             ))}
             </div>

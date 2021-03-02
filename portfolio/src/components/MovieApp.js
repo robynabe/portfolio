@@ -17,7 +17,7 @@ function MovieApp() {
 
             <div className="single-links">
                 <a className="link-left" href="https://github.com/robynabe/react-movie-app" rel="noreferrer" target="_blank">Github Repo</a>
-                <a className="link-right" href="#0" target="_blank">Live Project</a>
+                <a className="link-right" href="#0" rel="noreferrer" target="_blank">Live Project</a>
             </div>
 
             <div className="about-project">

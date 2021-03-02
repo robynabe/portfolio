@@ -2,6 +2,7 @@
 
 
 function About() {
+  window.scrollTo(0,0);
   return (
     <main className="about-main">
       <h1>Robyn Abe</h1>
