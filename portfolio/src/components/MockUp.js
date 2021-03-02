@@ -8,6 +8,7 @@ import layerImg from '../images/photoshop-layers.png';
 import guideImg from '../images/photoshop-guides.png';
 
 function MockUp() {
+    window.scrollTo(0,0);
     return (
         <main className="single-main">
             <h1>Movie App Mockup</h1>

@@ -7,6 +7,7 @@ import navVid from '../videos/brochure-nav-vid.webm';
 import sliderVid from '../videos/brochure-slideshow-vid.webm';
 
 function Brochure() {
+    window.scrollTo(0,0);
     return (
         <main className="single-main">
             <h1>Business Brochure</h1>

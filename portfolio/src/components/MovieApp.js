@@ -8,6 +8,7 @@ import sortVid from '../videos/react-movie-app-sorting-vid.webm';
 import SimpleSlider from '../utilities/movieSlick';
 
 function MovieApp() {
+    window.scrollTo(0,0);
 
     return (
         <main className="single-main">

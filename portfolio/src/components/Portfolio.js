@@ -5,6 +5,7 @@ import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
 
 function Portfolio() {
+    window.scrollTo(0,0);
     return (
         <main>
             <h1>Portfolio</h1>
