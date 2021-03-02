@@ -50,8 +50,8 @@ function About() {
                 <li>Problem Solving</li>
                 <li>Collaboration</li>
                 <li>Attention to detail</li>
-                <li>Prioritizaiton</li>
-                <li>Independent</li>
+                <li>Self Motivated</li>
+                <li>Analytical Thinking</li>
               </ul>
             </div>
 

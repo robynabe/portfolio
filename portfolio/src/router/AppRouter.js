@@ -9,10 +9,12 @@ import MovieApp from '../components/MovieApp';
 import Brochure from '../components/Brochure';
 import MockUp from '../components/MockUp';
 import WooCommerce from '../components/WooCommerce';
+import Tracker from './tracker';
 
 function AppRouter() {
   return (
     <Router>
+      <Tracker />
       <div className="wrapper">
         <Header />
           <Switch>

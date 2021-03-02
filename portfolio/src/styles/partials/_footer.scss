@@ -15,8 +15,11 @@ footer {
   }
   i {
     color: white;
-    margin: 10px;
+    padding: 10px;
     font-size: 30px;
+  }
+  .fab {
+    border-bottom: solid white 2px;
   }
   @media (min-width: 650px) {
     text-align: right;
@@ -33,7 +36,7 @@ footer {
   }
 }
 .fab:hover {
+  background-color: white;
   color: black;
-  filter: drop-shadow(0px 5px 5px white);
-  transition: all ease-in-out 200ms;
+  transition: all ease-in-out 300ms;
 }

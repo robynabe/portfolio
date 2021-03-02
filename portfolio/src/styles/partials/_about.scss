@@ -22,6 +22,10 @@
   }
   @media (min-width: 1000px) {
     margin: 60px auto;
+    h1 {
+      font-size: 3rem;
+      width: 400px;
+    }
   }
 }
 @keyframes fadein {
@@ -70,23 +74,24 @@
     justify-content: space-around;
   }
 }
-
 .soft-skills li {
   max-width: 150px;
   display: block;
   margin: 5px auto;
-  padding: 5px 15px;
+  padding: 2px 15px;
   background: rgba(black, 0.1);
   border-radius: 28px;
 }
+
 .favourites ul {
   text-align: center;
   i {
     font-size: 30px;
-    line-height: 40px;
+    line-height: 50px;
   }
 }
+
 .education span {
   font-size: 22px;
-  line-height: 30px;
+  line-height: 50px;
 }

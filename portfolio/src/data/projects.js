@@ -20,7 +20,7 @@ export const projects = [
         name: 'Movie App Mockup',
         alt: 'Movie mock up in Photoshop',
         tools: 'Photoshop | Illustrator',
-        overview: 'This movie app high fidelity mock-up was made primarily in Adobe Photoshop, while using a few assets created with Adobe Illustrator. Although this was not used for the live site, it showcases Adobe skills.',
+        overview: 'This high fidelity mock-up of a movie app was made primarily in Adobe Photoshop, while using a few assets created with Adobe Illustrator. Although this was not used for the live site, it showcases my skills in Adobe programs.',
         sort: 'other',
         page: 'MockUp',
         image: `${MockupImg}`
@@ -29,7 +29,7 @@ export const projects = [
         name: 'Portfolio',
         alt: 'Portolfio website',
         tools: 'React | Sass | JavaScript',
-        overview: 'This project was  created to showcase all of the highlighted projects I have completely. I built this website individually using React to practice the structure, syntax and functionality',
+        overview: 'This project was created to highlight some projects I have completed so far. It was built individually using React to practice the structure, syntax and functionality',
         sort: 'react',
         page: 'Portfolio',
         image: `${PorfolioImg}`
@@ -47,7 +47,7 @@ export const projects = [
         name: 'Holey Moley Doughnuts',
         alt: 'Doughnut shop products page',
         tools: 'HTML | Sass | JavaScript ',
-        overview: 'The business brochure was used to emphasis design and styling skills. The focus was to implement sass and work collaboratively with Github.',
+        overview: 'The business brochure was used to emphasis design and styling skills. The focus was to implement Sass and work collaboratively with Github.',
         sort: 'other',
         page: 'Brochure',
         image: `${BrochureImg}`

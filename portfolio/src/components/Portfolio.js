@@ -26,7 +26,7 @@ function Portfolio() {
                     <li><i className="fab fa-react"></i></li>
                     <li><i className="fab fa-js-square"></i></li>
                     <li><i className="fab fa-sass"></i></li>
-                    <li><i class="fab fa-html5"></i></li>
+                    <li><i className="fab fa-html5"></i></li>
                 </ul>
             </div>
 
