@@ -135,6 +135,7 @@ function MovieApp() {
                             <ul>
                                 <li>API calls</li>
                                 <li>React syntax</li>
+                                <li>Mapping</li>
                                 <li>Local storage use</li>
                             </ul>
                         </div>
