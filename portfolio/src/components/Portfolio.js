@@ -18,7 +18,7 @@ function Portfolio() {
             </div>
 
             <div className="about-project">
-                <h2>What's this all about?</h2>
+                <h2>What's this project all about?</h2>
                 <p>This project is a personal portfolio website showcasing some projects I have completed so far, each highlighting different
                     skills or tools used. Although it is mainly a static website, it is built using React to bring in some dynamism.
                 </p>
@@ -148,7 +148,7 @@ function Portfolio() {
                 </Link>
 
                 <Link className="link-fwd" to="/">
-                    <span>WooCommerce</span>
+                    <span>E-Commerce</span>
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
                         <polyline points="8 1 12 5 8 9"></polyline>

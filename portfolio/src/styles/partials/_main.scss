@@ -113,7 +113,7 @@
   float: right;
   text-decoration: none;
   margin: 0;
-  padding: 10px;
+  padding: 15px 0 10px 10px;
   display: flex;
   // Hover effect by Andreas Storm
   position: relative;
@@ -121,7 +121,7 @@
   &:before {
     content: "";
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 0;
     display: block;
     border-radius: 28px;
