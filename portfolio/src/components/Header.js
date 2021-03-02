@@ -18,7 +18,7 @@ function Header() {
     <header id="header">
       <div className="header">
         <h1 id="header-title">Web Developer</h1>
-        <Link to={'/'}><img className="logo" src={logo} alt="Brand logo"/></Link>
+        <Link to={'/'}><img className="logo" src={logo} alt="logo"/></Link>
         <Nav />
       </div>
     </header>

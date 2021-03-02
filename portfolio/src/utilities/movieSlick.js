@@ -30,13 +30,13 @@ export default class SimpleSlider extends Component {
            <img className="single-main-img" src={cineflixHome} alt="React movie app home page"/>
           </div>
           <div>
-            <img className="single-main-img" src={cineflixAbout} alt="React movie app home page"/>
+            <img className="single-main-img" src={cineflixAbout} alt="React movie app about page"/>
           </div>
           <div>
-            <img className="single-main-img" src={cineflixFav} alt="React movie app home page"/>
+            <img className="single-main-img" src={cineflixFav} alt="React movie app favourites page"/>
           </div>
           <div>
-            <img className="single-main-img" src={cineflixSingle} alt="React movie app home page"/>
+            <img className="single-main-img" src={cineflixSingle} alt="React movie app single movie page"/>
           </div>
         </Slider>
       </div>

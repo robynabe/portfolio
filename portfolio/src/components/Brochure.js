@@ -15,7 +15,7 @@ function Brochure() {
             <video className="single-main-img" autoPlay loop muted playsInline>
                 <source src={sliderVid}
                         type="video/webm"
-                        alt="Slick slideshow preview" />
+                        alt="Slick slideshow preview of brochure website" />
             </video>
 
             <div className="single-links">
