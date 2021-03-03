@@ -12,11 +12,6 @@ function Portfolio() {
         <main className="single-main">
             <h1>Portfolio</h1>
 
-            <div className="single-links">
-                <a className="link-left" href="https://github.com/robynabe/portfolio" rel="noreferrer" target="_blank">Github Repo</a>
-                <a className="link-right" href="#0" target="_blank">Live Project</a>
-            </div>
-
             <div className="about-project">
                 <h2>What's this project all about?</h2>
                 <p>This project is a personal portfolio website showcasing some projects I have completed so far, each highlighting different
@@ -28,6 +23,10 @@ function Portfolio() {
                     <li><i className="fab fa-sass"></i></li>
                     <li><i className="fab fa-html5"></i></li>
                 </ul>
+            </div>
+
+            <div className="single-links">
+                <a className="link-right portfolio" href="https://github.com/robynabe/portfolio" rel="noreferrer" target="_blank">Github Repo</a>
             </div>
 
 

@@ -84,13 +84,11 @@
     outline: none;
     &:hover,
     &:active {
-      border: solid black 2px;
       background: black;
       border-radius: 28px;
       color: white;
     }
     &:focus {
-      border: solid black 2px;
       border-radius: 28px;
     }
   }
