@@ -9,12 +9,17 @@ import MovieApp from '../components/MovieApp';
 import Brochure from '../components/Brochure';
 import MockUp from '../components/MockUp';
 import WooCommerce from '../components/WooCommerce';
-import Tracker from './tracker';
+import { useEffect } from 'react';
+import ReactGa from 'react-ga';
+
 
 function AppRouter() {
+  useEffect(() => {
+    ReactGa.initialize('G-5SHTE8NYMX');
+    ReactGa.pageview(window.location.pathname + window.location.search);
+  }, [])
   return (
     <Router>
-      <Tracker />
       <div className="wrapper">
         <Header />
           <Switch>
