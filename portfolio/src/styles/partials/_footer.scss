@@ -1,43 +1,57 @@
 footer {
   position: relative;
   text-align: center;
-  z-index: 3;
   background: none;
-  margin-top: 50px;
+  margin: 0 0 150px;
   a {
-    color: white;
+    color: black;
     text-transform: uppercase;
   }
   p {
-    color: white;
     font-size: 13px;
-    margin-bottom: 0;
+    margin: 10px 0 0 0;
   }
   i {
-    color: white;
+    color: black;
     font-size: 30px;
     padding: 5px;
   }
   .fab {
-    border-bottom: solid white 2px;
+    border-bottom: solid black 3px;
     padding: 10px;
+    &:hover {
+      background-color: black;
+      color: white;
+      transition: all ease-in-out 350ms;
+    }
   }
   @media (min-width: 650px) {
+    margin: 0;
     text-align: right;
     background: black;
+    a {
+      color: white;
+    }
     p {
+      color: white;
       font-size: 15px;
       text-align: center;
       padding-bottom: 20px;
+    }
+    i {
+      color: white;
     }
     .social-links {
       margin-right: 30px;
       padding-top: 20px;
     }
+    .fab {
+      border-bottom: solid white 3px;
+      &:hover {
+        background-color: white;
+        color: black;
+        transition: all ease-in-out 350ms;
+      }
+    }
   }
-}
-.fab:hover {
-  background-color: white;
-  color: black;
-  transition: all ease-in-out 300ms;
 }
