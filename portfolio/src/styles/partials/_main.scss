@@ -69,26 +69,28 @@
 
 // Filter buttons //
 .filter-btns {
-  width: 312.7px;
+  width: 330px;
   display: block;
+  padding: 2px;
   margin: 50px auto;
   border: solid 0.2px rgba(black, 0.1);
   border-radius: 28px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
   button {
     padding: 10px 12px;
-    text-align: center;
     border: none;
     background: transparent;
     outline: none;
     &:hover,
     &:active {
-      background: rgba(black, 0.1);
+      border: solid black 2px;
+      background: black;
       border-radius: 28px;
-      transition: all ease-in-out 250ms;
+      color: white;
     }
     &:focus {
-      background: rgba(black, 0.1);
+      border: solid black 2px;
       border-radius: 28px;
     }
   }
@@ -114,7 +116,7 @@
   float: right;
   text-decoration: none;
   margin: 0;
-  padding: 15px 0 10px 10px;
+  padding: 15px 0 10px 15px;
   display: flex;
   // Hover effect by Andreas Storm
   position: relative;
