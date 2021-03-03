@@ -20,7 +20,7 @@ function Brochure() {
 
             <div className="single-links">
                     <a className="link-left" href="https://github.com/robynabe/business-brochure" rel="noreferrer" target="_blank">Github Repo</a>
-                    <a className="link-right" href="#0" rel="noreferrer" target="_blank">Live Project</a>
+                    <a className="link-right" href="https://www.robynabe.com/business-brochure" rel="noreferrer" target="_blank">Live Project</a>
             </div>
 
             <div className="about-project">
