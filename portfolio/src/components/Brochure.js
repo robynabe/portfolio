@@ -5,11 +5,19 @@ import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
 import navVid from '../videos/brochure-nav-vid.webm';
 import sliderVid from '../videos/brochure-slideshow-vid.webm';
+import MetaTags from 'react-meta-tags';
 
 function Brochure() {
     window.scrollTo(0,0);
     return (
         <main className="single-main">
+            <MetaTags>
+                <title>Robyn Abe • Business Brochure</title>
+                <meta name="description" content="A project developed by Robyn Abe using HTML, CSS, SASS and Vanilla JavaScript
+                                                  showcasing the design side of front-end development" />
+                <meta property="og:title" content="Business brochure project" />     
+            </MetaTags>
+
             <h1>Business Brochure</h1>
 
             <video className="single-main-img" autoPlay loop muted playsInline>

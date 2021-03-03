@@ -1,9 +1,18 @@
 // ABOUT PAGE //
+import React from 'react';
+import MetaTags from 'react-meta-tags';
 
 function About() {
   window.scrollTo(0,0);
   return (
     <main className="about-main">
+      <MetaTags>
+        <title>Robyn Abe • Who Am I?</title>
+        <meta name="description" content="A summary about Robyn Abe and her experiences, schooling and interests in the
+                                          technology field of website development and technical web design." />
+        <meta property="og:title" content="About Me" />     
+      </MetaTags>
+
       <h1>Robyn Abe</h1>
           <section className='about-overview'>
               <p>Hello! I am Robyn Abe and here is my story.</p>

@@ -6,11 +6,18 @@ import { Link } from 'react-router-dom';
 import SimpleSlider from '../utilities/mockupSlick';
 import layerImg from '../images/photoshop-layers.png';
 import guideImg from '../images/photoshop-guides.png';
+import MetaTags from 'react-meta-tags';
 
 function MockUp() {
     window.scrollTo(0,0);
     return (
         <main className="single-main">
+            <MetaTags>
+                <title>Robyn Abe • Photoshop Design</title>
+                <meta name="description" content="An Adobe Photoshop website mock up that could be used as a design for a working website" />
+                <meta property="og:title" content="Photoshop Movie Mockup" />     
+            </MetaTags>
+
             <h1>Movie App Mockup</h1>
             <SimpleSlider />
 

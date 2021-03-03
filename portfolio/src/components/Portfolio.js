@@ -5,11 +5,19 @@ import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
 import PortfolioVid from '../videos/portfolio-vid.webm';
 import PortfolioImg from '../images/portfolio-sorting.png';
+import MetaTags from 'react-meta-tags';
 
 function Portfolio() {
     window.scrollTo(0,0);
     return (
         <main className="single-main">
+            <MetaTags>
+                <title>Robyn Abe • Portfolio</title>
+                <meta name="description" content="A webpage showcasing the development behind the portfolio website created with
+                                                 HTML, CSS, SASS, React and JavaScript." />
+                <meta property="og:title" content="Portfolio Projects" />
+            </MetaTags>
+
             <h1>Portfolio</h1>
 
             <div className="about-project">

@@ -6,12 +6,21 @@ import { Link } from 'react-router-dom';
 import favVid from '../videos/react-movie-app-fav-video.webm';
 import sortVid from '../videos/react-movie-app-sorting-vid.webm';
 import SimpleSlider from '../utilities/movieSlick';
+import MetaTags from 'react-meta-tags';
 
 function MovieApp() {
     window.scrollTo(0,0);
 
     return (
         <main className="single-main">
+            <MetaTags>
+                <title>Robyn Abe • Movie App</title>
+                <meta name="description" content="A development project of a functioning movie application using real time data built
+                                                with React, Javascript, HTML, CSS and SASS to showcase the technical and design skills
+                                                of a web developer" />
+                <meta property="og:title" content="React movie app" />     
+            </MetaTags>
+
             <h1>Cineflix Movie App</h1>
             <SimpleSlider />
 

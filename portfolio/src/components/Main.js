@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { projects } from '../data/projects';
 import { Link } from 'react-router-dom';
+import MetaTags from 'react-meta-tags';
 
 const Main = () => {
     window.scrollTo(0,0);
@@ -23,6 +24,14 @@ const Main = () => {
 
     return (
         <main className="main-projects">
+            <MetaTags>
+                <title>Robyn Abe • Web Developer</title>
+                <meta name="description" content="A portfolio website for technical projects completed by a 
+                                                Front-end web developer showcasing website design and use of HTML, CSS
+                                                SASS, JavaScript, React and other web development skills and tools" />
+                <meta property="og:title" content="Portfolio Projects" />
+            </MetaTags>
+            
             <h1>Projects</h1>
 
             <div className="filter-btns">
