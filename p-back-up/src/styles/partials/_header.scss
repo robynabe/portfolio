@@ -1,0 +1,32 @@
+// HEADER STYLING //
+
+header {
+  position: relative;
+  background-color: black;
+  h1 {
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-size: 1.8rem;
+    top: 80px;
+    margin-left: -200px;
+    transition: 1s;
+    color: white;
+  }
+  @media (min-width: 650px) {
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.logo {
+  width: 120px;
+  margin: 10px;
+  &:hover {
+    filter: drop-shadow(2px 5px 5px white);
+    transition: all ease-in-out 300ms;
+  }
+}

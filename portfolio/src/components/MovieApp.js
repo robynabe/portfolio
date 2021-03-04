@@ -3,8 +3,8 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
-import favVid from '../videos/react-movie-app-fav-video.webm';
-import sortVid from '../videos/react-movie-app-sorting-vid.webm';
+import favVid from '../videos/react-movie-app-fav-video.mp4';
+import sortVid from '../videos/react-movie-app-sorting-vid.mp4';
 import SimpleSlider from '../utilities/movieSlick';
 import MetaTags from 'react-meta-tags';
 
@@ -62,7 +62,7 @@ function MovieApp() {
                             <div className="feature-details">
                                 <video autoPlay loop muted playsInline className="favourites-vid">
                                 <source src={favVid}
-                                        type="video/webm"
+                                        type="video/mp4"
                                         alt="Favourites button function preview"/>
                                 </video>
                                 <p>This feature was created after successful API connection in order to allow users to select and store movies for later for a more
@@ -78,7 +78,7 @@ function MovieApp() {
                             <div className="feature-details">
                                  <video autoPlay loop muted playsInline className="sorting-vid">
                                 <source src={sortVid}
-                                        type="video/webm"
+                                        type="video/mp4"
                                         alt="Movie sorting function preview"/>
                                 </video>
 

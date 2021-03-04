@@ -3,7 +3,7 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
-import PortfolioVid from '../videos/portfolio-vid.webm';
+import PortfolioVid from '../videos/portfolio-vid.mp4';
 import PortfolioImg from '../images/portfolio-sorting.png';
 import MetaTags from 'react-meta-tags';
 
@@ -54,7 +54,7 @@ function Portfolio() {
                             <div className="feature-details">
                                  <video autoPlay loop muted playsInline className="sorting-vid">
                                 <source src={PortfolioVid}
-                                        type="video/webm"
+                                        type="video/mp4"
                                         alt="Project internal sorting feature"/>
                                 </video>
 

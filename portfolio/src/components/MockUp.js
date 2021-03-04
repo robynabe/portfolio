@@ -1,8 +1,8 @@
 // SINGLE PROJECT PAGE - Mockup //
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
+import 'react-tabs/style/react-tabs.css';
 import SimpleSlider from '../utilities/mockupSlick';
 import layerImg from '../images/photoshop-layers.png';
 import guideImg from '../images/photoshop-guides.png';

@@ -1,0 +1,13 @@
+.nav-vid {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+@media (min-width: 800px) {
+  .brochure {
+    display: flex;
+    p {
+      padding: 15px;
+    }
+  }
+}

@@ -3,8 +3,8 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
-import navVid from '../videos/brochure-nav-vid.webm';
-import sliderVid from '../videos/brochure-slideshow-vid.webm';
+import navVid from '../videos/brochure-nav-vid.mp4';
+import sliderVid from '../videos/brochure-slideshow-vid.mp4';
 import MetaTags from 'react-meta-tags';
 
 function Brochure() {
@@ -66,7 +66,7 @@ function Brochure() {
 
                             <video autoPlay loop muted playsInline className="nav-vid">
                                 <source src={navVid}
-                                        type="video/webm"
+                                        type="video/mp4"
                                         alt="Mobile navigation animation preview"/>
                             </video>
 
