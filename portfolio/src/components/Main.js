@@ -3,9 +3,9 @@ import React, { useState } from "react";
 import { projects } from '../data/projects';
 import { Link } from 'react-router-dom';
 import MetaTags from 'react-meta-tags';
+import Typist from 'react-typist';
 
 const Main = () => {
-    window.scrollTo(0,0);
 
     const [projectFilter, setProjectFilter] = useState(projects);
 
@@ -31,8 +31,16 @@ const Main = () => {
                                                 SASS, JavaScript, React and other web development skills and tools" />
                 <meta property="og:title" content="Portfolio Projects" />
             </MetaTags>
+
+            <section className="intro-para">
+                <Typist><h3>Hello, I am Robyn Abe.</h3></Typist><br />
+                <p>I am a front-end web developer. I develop websites
+                    with intuitive design and thoughtful details. See a few of my
+                    favourite <a href="#projects">creations</a> below!</p>
+                
+            </section>
             
-            <h1>Projects</h1>
+            <h1 id="projects">Projects</h1>
 
             <div className="filter-btns">
                 <button onClick={() => showAll()} active="true">All Projects</button>
