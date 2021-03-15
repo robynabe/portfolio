@@ -22,7 +22,7 @@ function Brochure() {
 
             <video className="single-main-img" autoPlay loop muted playsInline>
                 <source src={sliderVid}
-                        type="video/webm"
+                        type="video/mp4"
                         alt="Slick slideshow preview of brochure website" />
             </video>
 

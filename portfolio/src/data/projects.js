@@ -37,7 +37,7 @@ export const projects = [
     {
         name: 'The Rolling Pin',
         alt: 'Ecommerce online bakery home page',
-        tools: 'WordPress | SassJava | Script',
+        tools: 'WordPress | JavaScript | Sass',
         overview: 'Coming Soon... Hold tight!',
         sort: 'other',
         page: '/',

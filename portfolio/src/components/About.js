@@ -17,15 +17,15 @@ function About() {
           <section className='about-overview'>
               <p>Hello! I am Robyn Abe and here is my story.</p>
               <p>At the beginning of 2020 I stumbled across an online seminar hosted by SheCodes all while searching for my next 
-                career move. They were promoting women in code and I found this inspiring. I was then overly intrigued by this 
+                career move. They were promoting women in code and I found this to be inspiring. I was overly intrigued by this 
                 field that I had never given a thought to in the past. I took a chance and signed up for the 4 month React course and 
                 found passion in the frustrating excitment of making a website application come to life both funcationally and through design. 
                 I decided to attend an accredited school and take this new career path more seriously. 
                 From there I enrolled in the Technical Web Design program at BCIT.
               </p>
               <p>I found I love to develop and express my creativity. I enjoy creating the small details that bring a website 
-                together and I use lazy perfectionism to my advantage. I find the quickiest, yet most efficent way to get
-                get something done without sacrificing the quality of the final product. I take much pride in the projects that 
+                together and I use lazy perfectionism to my advantage. I find the quickest, yet most efficent way to get
+                something done without sacrificing the quality of the final product. I take much pride in the projects that 
                 I have completed so far in the short period of time that I have been in this field. I am anxious to get 
                 started and be a part of a new community!
               </p>
