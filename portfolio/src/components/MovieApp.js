@@ -1,7 +1,5 @@
 // SINGLE PROJECT PAGE - Movie App //
 
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
 import favVid from '../videos/react-movie-app-fav-video.mp4';
 import sortVid from '../videos/react-movie-app-sorting-vid.mp4';
@@ -43,106 +41,70 @@ function MovieApp() {
                 </ul>
             </div>
 
-            <Tabs className="tabs-wrapper">
-                <TabList>
-                    <Tab><h3>Features</h3></Tab>
-                    <Tab><h3>Toolkit</h3></Tab>
-                    <Tab><h3>Reflection</h3></Tab>
-                </TabList>
+                <div id ="features" className="details-container">
+                    <h2>Project Features</h2>
+                    <div className="feature">
+                        <p>This Project was built around two main features, both which required quite a bit of JavaScript,
+                            external data use and teamwork.
+                        </p>
+                            <h3><span></span><b>1.</b> The Favourites Feature</h3>
 
-                <TabPanel>
-                    <div className="details-container">
-
-                        <div className="feature">
-                            <p>This Project was built around two main features, both which required quite a bit of JavaScript,
-                                external data use and teamwork.
+                        <div className="feature-details">
+                            <video autoPlay loop muted playsInline className="favourites-vid">
+                            <source src={favVid}
+                                    type="video/mp4"
+                                    alt="Favourites button function preview"/>
+                            </video>
+                            <p>This feature was created after successful API connection in order to allow users to select and store movies for later for a more
+                                interactive atmosphere. We are provided the ability to favourite movies from multiple categories and pages, as well as 
+                                unfavourite movies they no longer wanted. These selections used local storage for memory.
                             </p>
-                                <h3><span></span><b>1.</b> The Favourites Feature</h3>
-
-                            <div className="feature-details">
-                                <video autoPlay loop muted playsInline className="favourites-vid">
-                                <source src={favVid}
-                                        type="video/mp4"
-                                        alt="Favourites button function preview"/>
-                                </video>
-                                <p>This feature was created after successful API connection in order to allow users to select and store movies for later for a more
-                                    interactive atmosphere. We are provided the ability to favourite movies from multiple categories and pages, as well as 
-                                    unfavourite movies they no longer wanted. These selections used local storage for memory.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="feature">
-                            <h3><span></span><b>2.</b> The Sorting Feature</h3>
-
-                            <div className="feature-details">
-                                 <video autoPlay loop muted playsInline className="sorting-vid">
-                                <source src={sortVid}
-                                        type="video/mp4"
-                                        alt="Movie sorting function preview"/>
-                                </video>
-
-                                <p>This feature required manipulation of the API url in order to target different data from the database. It pulled movies from four
-                                    different categories: Popular, Now Playing, Top Rated and Coming Soon.
-                                </p>
-                            </div>
-                        </div> 
-
-                    </div>
-                </TabPanel>
-
-                <TabPanel>
-                    <div className="details-container">
-                        <div className="project-details">
-
-                            <div className="specs">
-                                <h3>Project specs</h3>
-                                <ul>
-                                    <li><b>Project Type: </b> Collaborative, team of 3</li>
-                                    <li><b>Project Duration: </b> 5 weeks</li>
-                                    <li><b>Responsiveness: </b> mobile, tablet, desktop</li>
-                                    <li><b>Other Specs: </b> The Movie Database API</li>
-                                </ul>
-                            </div>
-
-                            <div className="tools-used">
-                                <h3>Tools Used</h3>
-                                <ul>
-                                    <li>React</li>
-                                    <li>JavaScript</li>
-                                    <li>HTML</li>
-                                    <li>Sass</li>
-                                    <li>Github</li>
-                                    <li>Photoshop</li>
-                                    <li>Gulp</li>
-                                </ul>
-                            </div>
-
                         </div>
                     </div>
-                </TabPanel>
 
-                <TabPanel>
-                    <div className="details-container">
-                        
-                        <div className="reflection">
-                            <div>
-                                <h3><span></span><b>1.</b> The Challenges</h3>
-                                <p>The most challenging part of this project was implementing the favourites buttons using local storage on multiple pages.</p>
-                            </div>
-                            <div>
-                                <h3><span></span><b>2.</b> The Solution</h3>
-                                <p>To overcome this challenge we spent a lot of time commenting out code until we located the source the problem. 
-                                    We worked as a team to accomplish this as multiple brains are better than one. Most importantly, we knew when to ask for help.
-                                </p>
-                            </div>
-                            <div>
-                                <h3><span></span><b>3.</b> The Improvements</h3>
-                                <p>There is always room for improvement and for this project in particular we could have created more external functions/components 
-                                so that they could be used in a global manner throughout the project. This would improve the overall organization of the site.
-                                </p>
-                            </div>
-    
+                    <div className="feature">
+                        <h3><span></span><b>2.</b> The Sorting Feature</h3>
+
+                        <div className="feature-details">
+                                <video autoPlay loop muted playsInline className="sorting-vid">
+                            <source src={sortVid}
+                                    type="video/mp4"
+                                    alt="Movie sorting function preview"/>
+                            </video>
+
+                            <p>This feature required manipulation of the API url in order to target different data from the database. It pulled movies from four
+                                different categories: Popular, Now Playing, Top Rated and Coming Soon.
+                            </p>
+                        </div>
+                    </div> 
+
+                </div>
+            
+                <div id ="tools" className="details-container">
+                    <h2>Tools and Skills</h2>
+                    <div className="project-details">
+
+                        <div className="specs">
+                            <h3>Project Specs</h3>
+                            <ul>
+                                <li><b>Project Type: </b> Collaborative, team of 3</li>
+                                <li><b>Project Duration: </b> 5 weeks</li>
+                                <li><b>Responsiveness: </b> mobile, tablet, desktop</li>
+                                <li><b>Other Specs: </b> The Movie Database API</li>
+                            </ul>
+                        </div>
+
+                        <div className="tools-used">
+                            <h3>Tools Used</h3>
+                            <ul>
+                                <li>React</li>
+                                <li>JavaScript</li>
+                                <li>HTML</li>
+                                <li>Sass</li>
+                                <li>Github</li>
+                                <li>Photoshop</li>
+                                <li>Gulp</li>
+                            </ul>
                         </div>
 
                         <div className="skills">
@@ -156,8 +118,8 @@ function MovieApp() {
                         </div>
 
                     </div>
-                </TabPanel>
-            </Tabs>
+                </div>
+                
             <div className="links-container">
 
                 <Link className="link-bck" to="/MockUp">

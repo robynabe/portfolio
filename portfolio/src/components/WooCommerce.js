@@ -1,7 +1,4 @@
 // SINGLE PROJECT PAGE - The Rolling Pin //
-
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
 
 function WooCommerce() {
@@ -9,26 +6,13 @@ function WooCommerce() {
     return (
         <main>
             <h1>The Rolling Pin</h1>
-            <Tabs>
-                <TabList>
-                    <Tab><h3>Process</h3></Tab>
-                    <Tab><h3>Toolkit</h3></Tab>
-                    <Tab><h3>Reflection</h3></Tab>
-                </TabList>
 
-                <TabPanel>
-                    <div className="details-container">Coming Soon!</div>
-                </TabPanel>
-
-                <TabPanel>
-                    <div className="details-container">Coming Soon!</div>
-                </TabPanel>
-
-                <TabPanel>
-                    <div className="details-container">Coming Soon!</div>
-                </TabPanel>
-            </Tabs>
-
+         
+            <div className="details-container">Coming Soon!</div>
+    
+            <div className="details-container">Coming Soon!</div>
+               
+        
             <div className="links-container">
 
                 <Link className="link-bck" to="/portfolio">

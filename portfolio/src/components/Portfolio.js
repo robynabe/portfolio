@@ -1,7 +1,4 @@
 // SINGLE PROJECT PAGE - Portfolio //
-
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
 import PortfolioVid from '../videos/portfolio-vid.mp4';
 import PortfolioImg from '../images/portfolio-sorting.png';
@@ -38,113 +35,75 @@ function Portfolio() {
                 <a className="link-right portfolio" href="https://github.com/robynabe/portfolio" rel="noreferrer" target="_blank">Github Repo</a>
             </div>
 
+            <div className="details-container">
+                <h2>Project Features</h2>
 
-            <Tabs className="tabs-wrapper">
-                <TabList>
-                    <Tab><h3>Features</h3></Tab>
-                    <Tab><h3>Toolkit</h3></Tab>
-                    <Tab><h3>Reflection</h3></Tab>
-                </TabList>
+                <div className="feature">
+                    <h3><span></span><b>1.</b>Internal Sorting - The Outcome</h3>
 
-                <TabPanel>
-                    <div className="details-container">
+                    <div className="feature-details">
+                            <video autoPlay loop muted playsInline className="sorting-vid">
+                        <source src={PortfolioVid}
+                                type="video/mp4"
+                                alt="Project internal sorting feature"/>
+                        </video>
 
-                        <div className="feature">
-                            <h3><span></span><b>1.</b>Internal Sorting - The Outcome</h3>
-
-                            <div className="feature-details">
-                                 <video autoPlay loop muted playsInline className="sorting-vid">
-                                <source src={PortfolioVid}
-                                        type="video/mp4"
-                                        alt="Project internal sorting feature"/>
-                                </video>
-
-                                <p> This feature sorts through the internal data of the web page to find and display relevant projects. <br/>
-                                    To accomplish this I use a simple Hook function(useState) to grab the original project information 
-                                    from an internal object, filter through the data and return only the projects with the correlating categories.</p>
-                            </div>
-                        </div> 
-
-                        <div className="feature">
-                            <h3><span></span><b>2.</b>Internal Sorting - The Code</h3>
-
-                            <div className="feature-details">
-                                 <img src={PortfolioImg} alt="Internal sorting code" className="portfolio-code-img"/>
-                            </div>
-                        </div>  
-
+                        <p> This feature sorts through the internal data of the web page to find and display relevant projects. <br/>
+                            To accomplish this I use a simple Hook function(useState) to grab the original project information 
+                            from an internal object, filter through the data and return only the projects with the correlating categories.</p>
                     </div>
-                </TabPanel>
+                </div> 
 
-                <TabPanel>
-                    <div className="details-container">
-                           <div className="project-details">
+                <div className="feature">
+                    <h3><span></span><b>2.</b>Internal Sorting - The Code</h3>
 
-                            <div className="specs">
-                                <h3>Project specs</h3>
-                                <ul>
-                                    <li><b>Project Type: </b> Individual</li>
-                                    <li><b>Project Duration: </b> 5 weeks</li>
-                                    <li><b>Responsiveness: </b> mobile, tablet, desktop</li>
-                                </ul>
-                            </div>
-
-                            <div className="tools-used">
-                                <h3>Tools Used</h3>
-                                <ul>
-                                    <li>React</li>
-                                    <li>JavaScript</li>
-                                    <li>HTML</li>
-                                    <li>Sass</li>
-                                    <li>CSS</li>
-                                    <li>Github</li>
-                                    <li>JQuery</li>
-                                </ul>
-                            </div>
-
-                        </div>
+                    <div className="feature-details">
+                            <img src={PortfolioImg} alt="Internal sorting code" className="portfolio-code-img"/>
                     </div>
-                </TabPanel>
+                </div>  
 
-                <TabPanel>
-                    <div className="details-container">
+            </div>
 
-                        <div className="reflection">
-                            <div>
-                                <h3><span></span><b>1.</b> The Challenges</h3>
-                                <p>This static website was challenging to make dynmaic, as I wanted to be able to highlight the capabilities of React. It was import
-                                    to me to create it this way to practice my skills in this framework.</p>
-                            </div>
-                            <div>
-                                <h3><span></span><b>2.</b> The Solution</h3>
-                                <p>I tried to incorporate my own small database of porjects and other external functions to show the simplicity of retrieving data from 
-                                    an API-like situation, as well as passing data from one page to another. I also implemented a project sorting feature, along with npm react-tabs 
-                                    to diversify the project.
-                                </p>
-                            </div>
-                            <div>
-                                <h3><span></span><b>3.</b> The Improvements</h3>
-                                <p>Sometimes I get over enthusiastic about the funcitonality and features that I want to include in the project that I lose focus of my design. 
-                                    I would like to work on commiting to a design and sticking with it, as it can always be altered later if need be.
-                                </p>
-                            </div>
-    
-                        </div>
+            <div id ="tools" className="details-container">
+                    <h2>Tools and Skills</h2>
+                    <div className="project-details">
 
-                        <div className="skills">
-                            <h3>Skills Acquired</h3>
-                            <ul>
-                                <li>Internal Sorting</li>
-                                <li>React Hooks</li>
-                                <li>Mapping</li>
-                                <li>Page load animations</li>
-                                <li>Complex hover effects</li>
-                            </ul>
-                        </div>
-
+                    <div className="specs">
+                        <h3>Project specs</h3>
+                        <ul>
+                            <li><b>Project Type: </b> Individual</li>
+                            <li><b>Project Duration: </b> 5 weeks</li>
+                            <li><b>Responsiveness: </b> mobile, tablet, desktop</li>
+                        </ul>
                     </div>
-                </TabPanel>
-            </Tabs>
+
+                    <div className="tools-used">
+                        <h3>Tools Used</h3>
+                        <ul>
+                            <li>React</li>
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>Sass</li>
+                            <li>CSS</li>
+                            <li>Github</li>
+                            <li>JQuery</li>
+                        </ul>
+                    </div>
+
+                    <div className="skills">
+                        <h3>Skills Acquired</h3>
+                        <ul>
+                            <li>Internal Sorting</li>
+                            <li>React Hooks</li>
+                            <li>Mapping</li>
+                            <li>Page load animations</li>
+                            <li>Complex hover effects</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+             
             <div className="links-container">
 
                 <Link className="link-bck" to="/MovieApp">

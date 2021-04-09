@@ -1,7 +1,5 @@
 // SINGLE PROJECT PAGE - Holey Moley Doughnuts //
 
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
 import { Link } from 'react-router-dom';
 import navVid from '../videos/brochure-nav-vid.mp4';
 import sliderVid from '../videos/brochure-slideshow-vid.mp4';
@@ -45,98 +43,66 @@ function Brochure() {
                     <li><i className="fab fa-sass"></i></li>
                 </ul>
             </div>
-            
-            <Tabs className="tabs-wrapper">
-                <TabList>
-                    <Tab><h3>Features</h3></Tab>
-                    <Tab><h3>ToolKit</h3></Tab>
-                    <Tab><h3>Reflection</h3></Tab>
-                </TabList>
 
-                <TabPanel>
-                    <div className="details-container">
-                        <div className="feature brochure">
+            <div className="details-container">
+                <h2>Project Features</h2>
+                <div className="feature brochure">
 
-                            <div>
-                                <h3><span></span><b>1.</b> Mobile Navigation</h3>
-                                <p>Although this project was mainly hard coded, we tried to implement some animations and dynamic features. We added a 
-                                    smooth mobile navigation and a product image slideshow on the home page which featured multiple “customer testimonials”.
-                                </p>
-                            </div>
-
-                            <video autoPlay loop muted playsInline className="nav-vid">
-                                <source src={navVid}
-                                        type="video/mp4"
-                                        alt="Mobile navigation animation preview"/>
-                            </video>
-
-                        </div>
+                    <div>
+                        <h3><span></span><b>1.</b> Mobile Navigation</h3>
+                        <p>Although this project was mainly hard coded, we tried to implement some animations and dynamic features. We added a 
+                            smooth mobile navigation and a product image slideshow on the home page which featured multiple “customer testimonials”.
+                        </p>
                     </div>
-                </TabPanel>
 
-                <TabPanel>
-                    <div className="details-container">
-                        <div className="project-details">
+                    <video autoPlay loop muted playsInline className="nav-vid">
+                        <source src={navVid}
+                                type="video/mp4"
+                                alt="Mobile navigation animation preview"/>
+                    </video>
 
-                            <div className="specs">
-                                <h3>Project specs</h3>
-                                <ul>
-                                    <li><b>Project Type:</b> Collaborative, team of 2</li>
-                                    <li><b>Project Duration:</b> 4 weeks</li>
-                                    <li><b>Responsiveness:</b> mobile, tablet, desktop</li>
-                                    <li><b>Other Specs:</b> Slick Slideshow</li>
-                                </ul>
-                            </div>
+                </div>
+            </div>
+                
+            <div id ="tools" className="details-container">
+                    <h2>Tools and Skills</h2>
+                <div className="project-details">
 
-                            <div className="tools-used">
-                                <h3>Tools Used</h3>
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>Sass</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>Github</li>
-                                    <li>JQuery</li>
-                                </ul>
-                            </div>
-
-                        </div>
+                    <div className="specs">
+                        <h3>Project specs</h3>
+                        <ul>
+                            <li><b>Project Type:</b> Collaborative, team of 2</li>
+                            <li><b>Project Duration:</b> 4 weeks</li>
+                            <li><b>Responsiveness:</b> mobile, tablet, desktop</li>
+                            <li><b>Other Specs:</b> Slick Slideshow</li>
+                        </ul>
                     </div>
-                </TabPanel>
 
-                <TabPanel>
-                    <div className="details-container">
+                    <div className="tools-used">
+                        <h3>Tools Used</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>Sass</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Github</li>
+                            <li>JQuery</li>
+                        </ul>
+                    </div>
 
-                        <div className="reflection">
-                            <div>
-                                <h3><span></span><b>1.</b> The Challenges</h3>
-                                <p>The most challenging part of this project was using github collaboratively for the first time, as this site was quite small.</p>
-                            </div>
-                            <div>
-                                <h3><span></span><b>2.</b> The Solution</h3>
-                                <p>We overcame this challenge very quickly as we learned the ins and outs of github and communicated frequently.
-                                </p>
-                            </div>
-                            <div>
-                                <h3><span></span><b>3.</b> The Improvements</h3>
-                                <p>This project mainly focused on styling skills, so our main improvement would be to utilize all the aspects that 
-                                Sass offers to help organize the styling better and create less work for ourselves. </p>
-                            </div>
-                        </div>
+                    <div className="skills">
+                    <h3>Skills Acquired</h3>
+                    <ul>
+                        <li>Functionality of Sass</li>
+                        <li>Slick slideshow manipulation</li>
+                        <li>Embedded Google maps</li>
+                        <li>Collaborative Github use</li>
+                    </ul> 
+                </div>
 
-                        <div className="skills">
-                            <h3>Skills Acquired</h3>
-                            <ul>
-                                <li>Functionality of Sass</li>
-                                <li>Slick slideshow manipulation</li>
-                                <li>Embedded Google maps</li>
-                                <li>Collaborative Github use</li>
-                            </ul> 
-                        </div>
+                </div>
+            </div>       
 
-                    </div>         
-                </TabPanel>
-            </Tabs>
             <div className="links-container">
 
                 <Link className="link-bck" to="/">
