@@ -14,10 +14,12 @@ import ReactGa from 'react-ga';
 
 
 function AppRouter() {
+  
   useEffect(() => {
-    ReactGa.initialize('264606565');
+    ReactGa.initialize('UA-191447609-1');
     ReactGa.pageview(window.location.pathname + window.location.search);
-  }, [])
+  }, []);
+
   return (
     <Router>
       <div className="wrapper">
