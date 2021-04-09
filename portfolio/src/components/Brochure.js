@@ -64,7 +64,7 @@ function Brochure() {
                 </div>
             </div>
                 
-            <div id ="tools" className="details-container">
+            <div className="details-container">
                     <h2>Tools and Skills</h2>
                 <div className="project-details">
 

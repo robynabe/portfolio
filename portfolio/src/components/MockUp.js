@@ -17,6 +17,7 @@ function MockUp() {
             </MetaTags>
 
             <h1>Movie App Mockup</h1>
+    
             <SimpleSlider />
 
             <div className="about-project">
@@ -59,7 +60,7 @@ function MockUp() {
 
             </div>
   
-            <div id ="tools" className="details-container">
+            <div className="details-container">
                     <h2>Tools and Skills</h2>
                 <div className="project-details">
 

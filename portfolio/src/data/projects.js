@@ -51,6 +51,24 @@ export const projects = [
         sort: 'other',
         page: 'Brochure',
         image: `${BrochureImg}`
+    },
+    {
+        name: 'Dictionary App',
+        alt: 'Coming soon poster',
+        tools: 'HTML | CSS | React ',
+        overview: 'Coming Soon... Hold tight!',
+        sort: 'react',
+        page: '/',
+        image: `${ComingSoon}`
+    },
+    {
+        name: 'Weather App',
+        alt: 'Coming soon poster',
+        tools: 'HTML | CSS | React ',
+        overview: 'Coming Soon... Hold tight!',
+        sort: 'react',
+        page: '/',
+        image: `${ComingSoon}`
     }
 
 ]
