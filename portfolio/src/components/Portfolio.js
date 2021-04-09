@@ -22,7 +22,8 @@ function Portfolio() {
 
             <div className="about-project">
                 <h2>What's this project all about?</h2>
-                <p>This project is a personal portfolio website showcasing some projects I have completed so far, each highlighting different
+                <p>This project is the wesbite you are currently browsing right now! It is my personal portfolio website 
+                    showcasing some projects I have completed so far, each highlighting different
                     skills or tools used. Although it is mainly a static website, it is built using React to bring in some dynamism.
                 </p>
                 <ul>

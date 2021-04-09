@@ -2,17 +2,18 @@
 
 header {
   position: relative;
-  background-color: black;
+  height: 200px;
+  //background-color: black;
   h1 {
     position: absolute;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.25em;
     font-size: 1.5rem;
-    top: 80px;
+    top: 60px;
     margin-left: -200px;
     transition: 1s;
-    color: white;
+    //color: white;
   }
   @media (min-width: 650px) {
     .header {
@@ -26,10 +27,10 @@ header {
 }
 
 .logo {
-  width: 120px;
-  margin: 10px;
+  position: absolute;
+  width: 220px;
+  filter: opacity(10%);
   &:hover {
-    filter: drop-shadow(2px 5px 5px white);
     transition: all ease-in-out 300ms;
   }
 }

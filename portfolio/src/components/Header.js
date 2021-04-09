@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 function Header() {
   const loadEffect = () => {
     let title = document.getElementById('header-title')
-    title.style.marginLeft = "120px";
+    title.style.marginLeft = "100px";
   }
 
   useEffect(() => {

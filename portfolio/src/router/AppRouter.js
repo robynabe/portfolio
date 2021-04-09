@@ -15,7 +15,7 @@ import ReactGa from 'react-ga';
 
 function AppRouter() {
   useEffect(() => {
-    ReactGa.initialize('G-5SHTE8NYMX');
+    ReactGa.initialize('264606565');
     ReactGa.pageview(window.location.pathname + window.location.search);
   }, [])
   return (

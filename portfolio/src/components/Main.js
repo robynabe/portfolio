@@ -40,7 +40,7 @@ const Main = () => {
                 
             </section>
             
-            <h1 id="projects">Projects</h1>
+            <h2 id="projects">Projects</h2>
 
             <div className="filter-btns">
                 <button onClick={() => showAll()} active="true">All Projects</button>
@@ -68,7 +68,7 @@ const Main = () => {
                                 </svg>
                             </Link>
                             <Link to={project.page} className="project-section-link">
-                                <h2>{project.name}</h2>
+                                <h3>{project.name}</h3>
                                 <p>{project.tools}</p>
                                 <p>{project.overview}</p>
                             </Link>
