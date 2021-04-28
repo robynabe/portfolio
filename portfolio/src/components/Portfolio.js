@@ -74,6 +74,7 @@ function Portfolio() {
                             <li><b>Project Type: </b> Individual</li>
                             <li><b>Project Duration: </b> 5 weeks</li>
                             <li><b>Responsiveness: </b> mobile, tablet, desktop</li>
+                            <li><b>Other Specs: </b>SEO, Google Analytics</li>
                         </ul>
                     </div>
 

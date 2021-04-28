@@ -1,11 +1,11 @@
 // PROJECT ARRAY //
-import MovieAppImg from '../images/movie-app-home1200.jpg';
-import BrochureImg from '../images/brochure-products1200.jpg';
-import MockupImg from '../images/movie-mockup-home1200.jpg';
-import PorfolioImg from '../images/portfolio-home1200.jpg';
+import movieAppImg from '../images/movie-app-home1200.jpg';
+import brochureImg from '../images/brochure-products1200.jpg';
+import mockupImg from '../images/movie-mockup-home1200.jpg';
+import porfolioImg from '../images/portfolio-home1200.jpg';
 import wcHome from '../images/wc-home1200.jpg';
-import ComingSoon from '../images/coming-soon.jpg';
-import DictionaryImg from "../images/dictionary-app1200.png";
+import comingSoon from '../images/coming-soon.jpg';
+import dictionaryImg from "../images/dictionary-app1200.png";
 
 
 export const projects = [
@@ -16,7 +16,7 @@ export const projects = [
         overview: 'This collaborative project focused on the JavaScript framework React and its dynamic abilities. Through this project, I learned how to make API calls, interact with an external database to update my website with real time data.',
         sort: 'react',
         page: 'MovieApp',
-        image: `${MovieAppImg}`
+        image: `${movieAppImg}`
     },
     {
         name: 'Movie App Mockup',
@@ -25,7 +25,7 @@ export const projects = [
         overview: 'This high fidelity mock-up of a movie app was made primarily in Adobe Photoshop, while using a few assets created with Adobe Illustrator. Although this was not used for the live site, it showcases my skills in Adobe programs.',
         sort: 'other',
         page: 'MockUp',
-        image: `${MockupImg}`
+        image: `${mockupImg}`
     },
     {
         name: 'Portfolio',
@@ -34,7 +34,7 @@ export const projects = [
         overview: 'This project was created to highlight some projects I have completed so far. It was built individually using React to practice the structure, syntax and functionality.',
         sort: 'react',
         page: 'Portfolio',
-        image: `${PorfolioImg}`
+        image: `${porfolioImg}`
     },
     {
         name: 'The Rolling Pin',
@@ -42,7 +42,7 @@ export const projects = [
         tools: 'WordPress | JavaScript | Sass',
         overview: 'A custom made WooCommerce website created using WordPress as a collaborative project.',
         sort: 'other',
-        page: 'https://www.robynabe.com/the-rolling-pin/',
+        page: 'WooCommerce',
         image: `${wcHome}`
     },
     {
@@ -52,7 +52,7 @@ export const projects = [
         overview: 'This business brochure was used to emphasis design and styling skills. The focus was to implement Sass and work collaboratively with Github.',
         sort: 'other',
         page: 'Brochure',
-        image: `${BrochureImg}`
+        image: `${brochureImg}`
     },
     {
         name: 'Dictionary App',
@@ -60,8 +60,8 @@ export const projects = [
         tools: 'HTML | CSS | React ',
         overview: 'A widget-style dictionary app created using React as a simple single-page website.',
         sort: 'react',
-        page: 'https://www.robynabe.com/dictionary-app/',
-        image: `${DictionaryImg}`
+        page: 'dictionary-app',
+        image: `${dictionaryImg}`
     },
     {
         name: 'Weather App',
@@ -70,7 +70,7 @@ export const projects = [
         overview: 'Coming Soon... Hold tight!',
         sort: 'react',
         page: '/',
-        image: `${ComingSoon}`
+        image: `${comingSoon}`
     }
 
 ]
