@@ -114,7 +114,7 @@ function Portfolio() {
                     <span>Cineflix</span>
                 </Link>
 
-                <Link className="link-fwd" to="/">
+                <Link className="link-fwd" to="/WooCommerce">
                     <span>E-Commerce</span>
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>

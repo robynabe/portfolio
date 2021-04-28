@@ -8,7 +8,7 @@ import Portfolio from '../components/Portfolio';
 import MovieApp from '../components/MovieApp';
 import Brochure from '../components/Brochure';
 import MockUp from '../components/MockUp';
-import WooCommerce from '../components/WooCommerce';
+import WooCommerce from "../components/WooCommerce";
 import { useEffect } from 'react';
 import ReactGa from 'react-ga';
 

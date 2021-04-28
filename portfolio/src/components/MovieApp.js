@@ -1,5 +1,4 @@
 // SINGLE PROJECT PAGE - Movie App //
-
 import { Link } from 'react-router-dom';
 import favVid from '../videos/react-movie-app-fav-video.mp4';
 import sortVid from '../videos/react-movie-app-sorting-vid.mp4';
@@ -41,7 +40,7 @@ function MovieApp() {
                 </ul>
             </div>
 
-                <div id ="features" className="details-container">
+                <div className="details-container">
                     <h2>Project Features</h2>
                     <div className="feature">
                         <p>This Project was built around two main features, both which required quite a bit of JavaScript,

@@ -4,7 +4,7 @@
   width: 100%;
   height: 80px;
   bottom: 0;
-  padding: 15px 0 0 0;
+  padding: 15px;
   background-color: black;
   h4 {
     display: none;
@@ -26,9 +26,9 @@
 .main-nav ul {
   display: flex;
   padding-left: 0;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
-  margin-top: 20px;
+  margin-top: 0;
   @media (min-width: 650px) {
     display: block;
     margin-right: 20px;
