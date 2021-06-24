@@ -101,16 +101,16 @@ function MockUp() {
         
             <div className="links-container">
 
-                <Link className="link-bck" to="/Brochure">
+                <Link className="link-bck" to="/MovieApp">
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
                         <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
-                    <span>Brochure</span>
+                    <span>Cineflix</span>
                 </Link>
 
-                <Link className="link-fwd" to="/MovieApp">
-                    <span>Cineflix</span>
+                <Link className="link-fwd" to="/Portfolio">
+                    <span>Portfolio</span>
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
                         <polyline points="8 1 12 5 8 9"></polyline>

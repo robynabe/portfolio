@@ -9,6 +9,7 @@ import MovieApp from '../components/MovieApp';
 import Brochure from '../components/Brochure';
 import MockUp from '../components/MockUp';
 import WooCommerce from "../components/WooCommerce";
+import Dicitonary from "../components/Dictionary";
 import { useEffect } from 'react';
 import ReactGa from 'react-ga';
 
@@ -32,6 +33,7 @@ function AppRouter() {
               <Route path={'/Brochure'}><Brochure /></Route>
               <Route path={'/MockUp'}><MockUp /></Route>
               <Route path={'/WooCommerce'}><WooCommerce /></Route>
+              <Route path={'/Dictionary'}><Dicitonary /></Route>
           </Switch>
         <Footer />
       </div>

@@ -121,15 +121,15 @@ function MovieApp() {
                 
             <div className="links-container">
 
-                <Link className="link-bck" to="/MockUp">
+                <Link className="link-bck" to="/Dictionary">
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
                         <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
-                    <span>Mockup</span>
+                    <span>Dictionary</span>
                 </Link>
 
-                <Link className="link-fwd" to="/portfolio">
+                <Link className="link-fwd" to="/Portfolio">
                     <span>Portfolio</span>
                     <svg width="30px" height="20px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>

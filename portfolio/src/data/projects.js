@@ -60,7 +60,7 @@ export const projects = [
         tools: 'HTML | CSS | React ',
         overview: 'A widget-style dictionary app created using React as a simple single-page website.',
         sort: 'react',
-        page: 'dictionary-app',
+        page: 'Dictionary',
         image: `${dictionaryImg}`
     },
     {
